@@ -1,7 +1,10 @@
 name: "Test Job"
 
 on:
+  push:
   workflow_dispatch:
+  release:
+    types: [published]
 
 jobs:
   test:
@@ -15,4 +18,5 @@ jobs:
 
       - name: "Test"
         id: test
-        uses: ./.github/js-test-action
+        uses: smashedr/js-test-action@master
+#        uses: ./.github/js-test-action
