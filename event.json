@@ -1,0 +1,10 @@
+{
+  "ref": "refs/tags/test-ref",
+  "repo": "test-repo",
+  "release": {
+    "head": {
+      "ref": "master"
+    },
+    "prerelease": true
+  }
+}
