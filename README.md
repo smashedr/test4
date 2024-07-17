@@ -39,11 +39,11 @@ Example Directory Structure:
 .  
 ├── .github  
 │ ├── js-test-action  
-│ │ └── https://github.com/smashedr/js-test-action  
+│ │   └── https://github.com/smashedr/js-test-action  
 │ └── workflows  
-│ └── test.yaml  
+│     └── test.yaml  
 ├── node_modules  
-│ └── (must include all modules to run js-test-action)  
+│   └── (must include all modules to run js-test-action)  
 ├── .env  
 ├── .gitignore  
 ├── .secrets  
