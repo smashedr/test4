@@ -1,53 +1,193 @@
-# Test 4
+[![GitHub Release Version](https://img.shields.io/github/v/release/django-files/android-client?logo=github)](https://github.com/django-files/android-client/releases/latest)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/django-files/android-client?logo=github&label=updated)](https://github.com/django-files/android-client/graphs/commit-activity)
+[![GitHub Top Language](https://img.shields.io/github/languages/top/django-files/android-client?logo=htmx)](https://github.com/django-files/android-client)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/django-files/android-client?logo=bookstack&logoColor=white&label=repo%20size)](https://github.com/django-files/android-client)
+[![GitHub Discussions](https://img.shields.io/github/discussions/django-files/android-client)](https://github.com/django-files/android-client/discussions)
+[![GitHub Forks](https://img.shields.io/github/forks/django-files/android-client?style=flat&logo=github)](https://github.com/django-files/android-client/forks)
+[![GitHub Repo Stars](https://img.shields.io/github/stars/django-files/android-client?style=flat&logo=github)](https://github.com/django-files/android-client/stargazers)
+[![GitHub Org Stars](https://img.shields.io/github/stars/django-files?style=flat&logo=github&label=org%20stars)](https://django-files.github.io/)
+[![Discord](https://img.shields.io/discord/899171661457293343?logo=discord&logoColor=white&label=discord&color=7289da)](https://discord.gg/wXy6m2X8wY)
 
-Instructions for Local Actions using: https://nektosact.com/
+# Django Files Android App
 
-For a test action see: https://github.com/smashedr/js-test-action
+- [Install](#Install)
+   - [Setup](#Setup)
+- [Features](#Features)
+   - [Planned](#Planned)
+   - [Known Issues](#Known-Issues)
+- [Building](#Building)
+   - [Android Studio](#Android-Studio)
+   - [Command Line](#Command-Line)
+- [Development](#Development)
+- [Support](#Support)
+- [Contributing](#Contributing)
+
+Allows you to Share or Open any file with your Django Files server.
+The URL to the file is automatically copied to the clipboard and the preview is shown in the app.
+
+| Resource | Resource&nbsp;Link                           |
+| -------- | :------------------------------------------- |
+| Website  | https://django-files.github.io/              |
+| GitHub   | https://github.com/django-files              |
+| Server   | https://github.com/django-files/django-files |
+| iOS App  | https://github.com/django-files/ios-client   |
+
+> The app is now signed with a certificate allowing for installs and updates starting with 0.0.3
+
+# Install
+
+- [Download Latest Release](https://github.com/django-files/android-client/releases/latest/download/django-files.apk)
+
+Until the app is published on the play store, you must allow installation of apps from unknown sources.
+
+1. Go to your device settings.
+2. Search for "Install unknown apps" or similar.
+3. Choose the app you will install the apk file from.
+   - Select your web browser to install directly from it.
+   - Select your file manager to open it, locate the APK and install from there.
 
 ## Setup
 
-1. Deploy your local action to `.github/your-action`
-1. Edit [test.yaml](.github%2Fworkflows%2Ftest.yaml) to point to your local action using this
-   format: `./.github/js-test-action`
+1. [Install](#Install) and open the app.
+2. Enter the URL to your Django Files server.
+3. Log in as you normally would on the website.
+4. Done! You can now share any file to your Django Files server...
 
-You can now run your compiled action with `act`. Use `-l` to list and `-j` to specify if necessary.
+# Features
 
-To run your action from source with `node` you need to add the `node_modules` to the top leve directory:
+- Share or Open any file and automatically copy the URL to the clipboard.
+- Ability to manually change servers by entering a new URL from the Server List menu.
+- Supports Local Login, GitHub OAuth, Google OAuth, Discord OAuth (w/o passkeys).
 
-1. Copy or install your node modules in the top level directory: `./node_modules`
-1. Update your action's `action.yml` main to your source, example: `src/index.js`
+## Planned
 
-You should now be able to make source changes, and run directly with `act`
+- Ability to save multiple servers and switch between them automatically in the Server List menu.
+- Ability for the app to log you in if your session is expired or when switching servers.
 
-## Notes
+## Known Issues
 
-Make sure you do NOT have `node_modules` or `.github/**` in this `.gitignore` or use the `--use-gitignore=false` option.
+- Login with Discord OAuth passkeys does not work.
+- Login with Google OAuth gives an error; however, if you wait ~30 seconds it will succeed.
+- The app gets logged out if the session expires; however, sharing continues to work.
 
-The `.env`, `.secrets` and `.vars` files are defaults and automatically sourced. To source `event.json` you need to run
-act with `act -e event.json`
+# Building
 
-If you are deploying/syncing with a remote server, make sure to include the `.git` folder for repository variables.
+Covers Android Studio and Command Line.
 
-For advanced using with things like secrets, variables and context see: https://nektosact.com/usage/index.html
+## Android Studio
 
-You should also review the options from `act --help`
+1. Download and Install Android Studio.
 
-## Directory Structure
+https://developer.android.com/studio
 
-Example Directory Structure:
+2. Ensure that usb or wifi debugging is enabled in the Android developer settings and verify.
 
-.  
-├── .github  
-│ ├── js-test-action  
-│ │   └── https://github.com/smashedr/js-test-action  
-│ └── workflows  
-│     └── test.yaml  
-├── node_modules  
-│   └── (must include all modules to run js-test-action)  
-├── .env  
-├── .gitignore  
-├── .secrets  
-├── .vars  
-├── package.json  
-├── package-lock.json  
-└── README.md  
+3. Then build or run the app on your device.
+
+- Import the Project
+- Run Gradle Sync
+
+To run, select your device and press Play ▶️
+
+To build:
+
+- Select the Build Variant (debug or release)
+- Build > Generate App Bundles or APK > Generate APKs
+
+## Command Line
+
+You will need to have [ADB](https://developer.android.com/tools/adb) installed.
+
+<details><summary>Click Here to View Quick CLI Steps</summary>
+
+```shell
+$ wget https://github.com/django-files/android-client/releases/latest/download/django-files.apk
+$ ls
+django-files.apk
+
+$ which adb
+C:\Users\Shane\Android\sdk\platform-tools\adb.EXE
+
+$ adb devices
+List of devices attached
+RF9M33Z1Q0M     device
+
+$ adb -s RF9M33Z1Q0M install django-files.apk
+Performing Incremental Install
+Serving...
+All files should be loaded. Notifying the device.
+Success
+Install command complete in 917 ms
+```
+
+See below for more details...
+
+</details>
+
+1. Download and Install the Android SDK Platform Tools.
+
+https://developer.android.com/tools/releases/platform-tools#downloads
+
+Ensure that `adb` is in your PATH.
+
+2. List and verify the device is connected with:
+
+```shell
+$ adb devices
+List of devices attached
+RF9M33Z1Q0M     device
+```
+
+3. Build a debug or release apk.
+
+```shell
+./gradlew assemble
+./gradlew assembleRelease
+```
+
+_Note: Use `gradlew.bat` for Windows._
+
+4. Then install the apk to your device with adb.
+
+```shell
+$ cd app/build/outputs/apk/debug
+$ adb -s RF9M33Z1Q0M install app-debug.apk
+```
+
+```shell
+$ cd app/build/outputs/apk/release
+$ adb -s RF9M33Z1Q0M install app-release-unsigned.apk
+```
+
+_Note: you may have to uninstall before installing due to different certificate signatures._
+
+For more details, see the [ADB Documentation](https://developer.android.com/tools/adb#move).
+
+# Development
+
+Android Studio: https://developer.android.com/studio
+
+For now see [Install](#Install).
+
+# Support
+
+For general help or to request a feature, see:
+
+- Q&A Discussion: https://github.com/django-files/android-client/discussions/categories/q-a
+- Request a Feature: https://github.com/django-files/android-client/discussions/categories/feature-requests
+
+If you are experiencing an issue/bug or getting unexpected results, you can:
+
+- Report an Issue: https://github.com/django-files/android-client/issues
+- Chat with us on Discord: https://discord.gg/wXy6m2X8wY
+- Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=Django%20Files%20Android%20App)
+
+# Contributing
+
+Currently, the best way to contribute to this project is to star this project on GitHub.
+
+You can also support other related projects:
+
+- [Django Files Server](https://github.com/django-files/django-files)
+- [Django Files iOS App](https://github.com/django-files/ios-client)
+- [Django Files Android App](https://github.com/django-files/android-client)
