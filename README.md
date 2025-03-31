@@ -87,15 +87,12 @@ https://developer.android.com/studio
 2. Ensure that usb or wifi debugging is enabled in the Android developer settings and verify.
 
 3. Then build or run the app on your device.
+   - Import the Project
+   - Run Gradle Sync
 
-- Import the Project
-- Run Gradle Sync
+To Run. Select your device and press Play ▶️
 
-### Running
-
-Select your device and press Play ▶️
-
-### Building
+To Build.
 
 - Select the Build Variant (debug or release)
 - Build > Generate App Bundles or APK > Generate APKs
