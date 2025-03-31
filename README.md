@@ -11,13 +11,13 @@
 # Django Files Android App
 
 - [Install](#Install)
-   - [Setup](#Setup)
+  - [Setup](#Setup)
 - [Features](#Features)
-   - [Planned](#Planned)
-   - [Known Issues](#Known-Issues)
+  - [Planned](#Planned)
+  - [Known Issues](#Known-Issues)
 - [Building](#Building)
-   - [Android Studio](#Android-Studio)
-   - [Command Line](#Command-Line)
+  - [Android Studio](#Android-Studio)
+  - [Command Line](#Command-Line)
 - [Development](#Development)
 - [Support](#Support)
 - [Contributing](#Contributing)
@@ -32,9 +32,9 @@ The URL to the file is automatically copied to the clipboard and the preview is 
 | Server   | https://github.com/django-files/django-files |
 | iOS App  | https://github.com/django-files/ios-client   |
 
-> The app is now signed with a certificate allowing for installs and updates starting with 0.0.3
-
 # Install
+
+> Django Files is now signed starting at version 0.0.3
 
 - [Download Latest Release](https://github.com/django-files/android-client/releases/latest/download/django-files.apk)
 
@@ -45,6 +45,10 @@ Until the app is published on the play store, you must allow installation of app
 3. Choose the app you will install the apk file from.
    - Select your web browser to install directly from it.
    - Select your file manager to open it, locate the APK and install from there.
+4. [Download Latest Release](https://github.com/django-files/android-client/releases/latest/download/django-files.apk)
+5. Open the download in the app you selected in step #3.
+6. Choose Install and Accept Play Protect notifications.
+7. The app is now installed, proceed to [Setup](#Setup).
 
 ## Setup
 
