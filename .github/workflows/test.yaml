@@ -18,8 +18,8 @@ jobs:
 
       - name: "Test"
         id: test
-        uses: smashedr/js-test-action@master
-        #uses: ./.github/js-test-action
+        #uses: smashedr/js-test-action@master
+        uses: ./.github/js-test-action
         with:
           token: ${{ secrets.TOKEN }}
           body: ${{ vars.TEST_VAR }}
