@@ -101,7 +101,9 @@ To Build.
 
 You will need to have [ADB](https://developer.android.com/tools/adb) installed.
 
-<details><summary>Click Here to View Quick CLI Steps</summary>
+_Note: This section is a WIP and contains building instructions for the command line._
+
+<details><summary>Click Here to Download and Install a Release</summary>
 
 ```shell
 $ wget https://github.com/django-files/android-client/releases/latest/download/django-files.apk
