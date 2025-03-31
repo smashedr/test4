@@ -38,14 +38,14 @@ The URL to the file is automatically copied to the clipboard and the preview is 
 
 - [Download Latest Release](https://github.com/django-files/android-client/releases/latest/download/django-files.apk)
 
-Until the app is published on the play store, you must allow installation of apps from unknown sources.
+_Until the app is published on the play store, you must allow installation of apps from unknown sources._
 
 1. Go to your device settings.
 2. Search for "Install unknown apps" or similar.
 3. Choose the app you will install the apk file from.
    - Select your web browser to install directly from it.
    - Select your file manager to open it, locate the APK and install from there.
-4. [Download Latest Release](https://github.com/django-files/android-client/releases/latest/download/django-files.apk)
+4. [Download the Latest Release](https://github.com/django-files/android-client/releases/latest/download/django-files.apk).
 5. Open the download in the app you selected in step #3.
 6. Choose Install and Accept Play Protect notifications.
 7. The app is now installed, proceed to [Setup](#Setup).
@@ -91,9 +91,11 @@ https://developer.android.com/studio
 - Import the Project
 - Run Gradle Sync
 
-To run, select your device and press Play ▶️
+### Running
 
-To build:
+Select your device and press Play ▶️
+
+### Building
 
 - Select the Build Variant (debug or release)
 - Build > Generate App Bundles or APK > Generate APKs
