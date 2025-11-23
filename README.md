@@ -1,199 +1,137 @@
-[![GitHub Downloads](https://img.shields.io/github/downloads/django-files/android-client/total&logo=github)](https://github.com/django-files/android-client/releases/latest/download/django-files.apk)
-[![GitHub Release Version](https://img.shields.io/github/v/release/django-files/android-client?logo=github)](https://github.com/django-files/android-client/releases/latest)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/django-files/android-client?logo=github&label=updated)](https://github.com/django-files/android-client/graphs/commit-activity)
-[![GitHub Top Language](https://img.shields.io/github/languages/top/django-files/android-client?logo=htmx)](https://github.com/django-files/android-client)
-[![GitHub Repo Size](https://img.shields.io/github/repo-size/django-files/android-client?logo=bookstack&logoColor=white&label=repo%20size)](https://github.com/django-files/android-client)
-[![GitHub Discussions](https://img.shields.io/github/discussions/django-files/android-client)](https://github.com/django-files/android-client/discussions)
-[![GitHub Forks](https://img.shields.io/github/forks/django-files/android-client?style=flat&logo=github)](https://github.com/django-files/android-client/forks)
-[![GitHub Repo Stars](https://img.shields.io/github/stars/django-files/android-client?style=flat&logo=github)](https://github.com/django-files/android-client/stargazers)
-[![GitHub Org Stars](https://img.shields.io/github/stars/django-files?style=flat&logo=github&label=org%20stars)](https://django-files.github.io/)
+[![PyPI Version](https://img.shields.io/pypi/v/vultr-python?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/vultr-python/)
+[![TOML Python Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcssnr%2Fvultr-python%2Frefs%2Fheads%2Fmaster%2Fpyproject.toml&query=%24.project.requires-python&logo=python&logoColor=white&label=python)](https://github.com/cssnr/vultr-python?tab=readme-ov-file#readme)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/vultr-python?logo=pypi&logoColor=white)](https://pypistats.org/packages/vultr-python)
+[![Pepy Total Downloads](https://img.shields.io/pepy/dt/vultr-python?logo=pypi&logoColor=white&label=total)](https://clickpy.clickhouse.com/dashboard/vultr-python)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/9b356c4327df41e395c81de1c717ce11)](https://app.codacy.com/gh/cssnr/vultr-python/dashboard)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=cssnr_vultr-python&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=cssnr_vultr-python)
+[![Workflow Lint](https://img.shields.io/github/actions/workflow/status/cssnr/vultr-python/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/vultr-python/actions/workflows/lint.yaml)
+[![GitHub Deployments](https://img.shields.io/github/deployments/cssnr/vultr-python/github-pages?logo=materialformkdocs&logoColor=white&label=github-pages)](https://cssnr.github.io/vultr-python)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/vultr-python?logo=github&label=updated)](https://github.com/cssnr/vultr-python/graphs/commit-activity)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/vultr-python?logo=bookstack&logoColor=white&label=repo%20size)](https://github.com/cssnr/vultr-python)
+[![GitHub Top Language](https://img.shields.io/github/languages/top/cssnr/vultr-python?logo=htmx&logoColor=white)](https://github.com/cssnr/vultr-python?tab=readme-ov-file#readme)
+[![GitHub Contributors](https://img.shields.io/github/contributors-anon/cssnr/vultr-python?logo=github)](https://github.com/cssnr/vultr-python/graphs/contributors)
+[![GitHub Discussions](https://img.shields.io/github/discussions/cssnr/vultr-python?logo=github)](https://github.com/cssnr/vultr-python/discussions)
+[![GitHub Forks](https://img.shields.io/github/forks/cssnr/vultr-python?style=flat&logo=github)](https://github.com/cssnr/vultr-python/forks)
+[![GitHub Repo Stars](https://img.shields.io/github/stars/cssnr/vultr-python?style=flat&logo=github)](https://github.com/cssnr/vultr-python/stargazers)
+[![GitHub Org Stars](https://img.shields.io/github/stars/cssnr?style=flat&logo=github&label=org%20stars)](https://cssnr.github.io/)
 [![Discord](https://img.shields.io/discord/899171661457293343?logo=discord&logoColor=white&label=discord&color=7289da)](https://discord.gg/wXy6m2X8wY)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-72a5f2?logo=kofi&label=support)](https://ko-fi.com/cssnr)
 
-# Django Files Android App
+# Vultr Python
+
+<a title="Vultr Python" href="https://cssnr.github.io/vultr-python" target="_blank">
+<img alt="Vultr Python" align="right" width="128" height="auto" src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/vultr-python/logo128.png"></a>
 
 - [Install](#Install)
-  - [Setup](#Setup)
-- [Features](#Features)
-  - [Planned](#Planned)
-  - [Known Issues](#Known-Issues)
-- [Building](#Building)
-  - [Android Studio](#Android-Studio)
-  - [Command Line](#Command-Line)
-- [Development](#Development)
+- [Usage](#Usage)
 - [Support](#Support)
 - [Contributing](#Contributing)
 
-Allows you to Share or Open any file with your Django Files server.
-The URL to the file is automatically copied to the clipboard and the preview is shown in the app.
+Python 3 wrapper for the Vultr API v2.
 
-| Resource | Resource&nbsp;Link                           |
-| -------- | :------------------------------------------- |
-| Website  | https://django-files.github.io/              |
-| GitHub   | https://github.com/django-files              |
-| Server   | https://github.com/django-files/django-files |
-| iOS App  | https://github.com/django-files/ios-client   |
+[![PyPi](https://img.shields.io/badge/pypi-006dad?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/vultr-python)
+[![Docs](https://img.shields.io/badge/docs-198754?style=for-the-badge&logo=mdbook)](https://cssnr.github.io/vultr-python)
+[![Docs](https://img.shields.io/badge/vultr-007bfc?style=for-the-badge&logo=vultr)](https://www.vultr.com/api/?ref=6905748)
 
-# Install
+Vultr API Reference: [https://www.vultr.com/api](https://www.vultr.com/api/?ref=6905748)
 
-> Django Files is now signed starting at version 0.0.3
+> [!TIP]  
+> This project is not complete, but has many useful functions.  
+> Please submit a [Feature Request](https://github.com/cssnr/vultr-python/discussions/categories/feature-requests)
+> or report any [Issues](https://github.com/cssnr/vultr-python/issues).
 
-- [Download Latest Release](https://github.com/django-files/android-client/releases/latest/download/django-files.apk)
+## Install
 
-_Until the app is published on the play store, you must allow installation of apps from unknown sources._
+From PyPi: <https://pypi.org/project/vultr-python>
 
-1. Go to your device settings.
-2. Search for "Install unknown apps" or similar.
-3. Choose the app you will install the apk file from.
-   - Select your web browser to install directly from it.
-   - Select your file manager to open it, locate the APK and install from there.
-4. [Download the Latest Release](https://github.com/django-files/android-client/releases/latest/download/django-files.apk).
-5. Open the download in the app you selected in step #3.
-6. Choose Install and Accept Play Protect notifications.
-7. The app is now installed, proceed to [Setup](#Setup).
-
-## Setup
-
-1. [Install](#Install) and open the app.
-2. Enter the URL to your Django Files server.
-3. Log in as you normally would on the website.
-4. Done! You can now share any file to your Django Files server...
-
-# Features
-
-- Share or Open any file and automatically copy the URL to the clipboard.
-- Ability to manually change servers by entering a new URL from the Server List menu.
-- Supports Local Login, GitHub OAuth, Google OAuth, Discord OAuth (w/o passkeys).
-
-## Planned
-
-- Ability to save multiple servers and switch between them automatically in the Server List menu.
-- Ability for the app to log you in if your session is expired or when switching servers.
-
-## Known Issues
-
-- Login with Discord OAuth passkeys does not work.
-- Login with Google OAuth gives an error; however, if you wait ~30 seconds it will succeed.
-- The app gets logged out if the session expires; however, sharing continues to work.
-
-# Building
-
-Covers Android Studio and Command Line.
-
-## Android Studio
-
-1. Download and Install Android Studio.
-
-https://developer.android.com/studio
-
-2. Ensure that usb or wifi debugging is enabled in the Android developer settings and verify.
-
-3. Then build or run the app on your device.
-   - Import the Project
-   - Run Gradle Sync
-
-To Run. Select your device and press Play ▶️
-
-To Build.
-
-- Select the Build Variant (debug or release)
-- Build > Generate App Bundles or APK > Generate APKs
-
-## Command Line
-
-You will need to have [ADB](https://developer.android.com/tools/adb) installed.
-
-_Note: This section is a WIP and contains building instructions for the command line._
-
-<details><summary>Click Here to Download and Install a Release</summary>
-
-```shell
-$ wget https://github.com/django-files/android-client/releases/latest/download/django-files.apk
-$ ls
-django-files.apk
-
-$ which adb
-C:\Users\Shane\Android\sdk\platform-tools\adb.EXE
-
-$ adb devices
-List of devices attached
-RF9M33Z1Q0M     device
-
-$ adb -s RF9M33Z1Q0M install django-files.apk
-Performing Incremental Install
-Serving...
-All files should be loaded. Notifying the device.
-Success
-Install command complete in 917 ms
+```text
+python -m pip install vultr-python
 ```
 
-See below for more details...
+From Source:
 
-</details>
-
-1. Download and Install the Android SDK Platform Tools.
-
-https://developer.android.com/tools/releases/platform-tools#downloads
-
-Ensure that `adb` is in your PATH.
-
-2. List and verify the device is connected with:
-
-```shell
-$ adb devices
-List of devices attached
-RF9M33Z1Q0M     device
+```text
+git clone https://github.com/cssnr/vultr-python.git
+python -m pip install vultr-python
 ```
 
-3. Build a debug or release apk.
+## Usage
 
-```shell
-./gradlew assemble
-./gradlew assembleRelease
+You will need to create an api key and whitelist your IP address.
+Most functions do not work without an API Key.
+
+- [https://my.vultr.com/settings/#settingsapi](https://my.vultr.com/settings/#settingsapi)
+
+Initialize the class with your API Key or with the `VULTR_API_KEY` environment variable.
+
+```python
+from vultr import Vultr
+
+vultr = Vultr('VULTR_API_KEY')
 ```
 
-_Note: Use `gradlew.bat` for Windows._
+List plans and get available regions for that plan
 
-4. Then install the apk to your device with adb.
-
-```shell
-$ cd app/build/outputs/apk/debug
-$ adb -s RF9M33Z1Q0M install app-debug.apk
+```python
+plans = vultr.list_plans()
+plan = plans[0]  # 0 seems to be the basic 5 dollar plan
+regions = vultr.list_regions()
+available = vultr.filter_regions(regions, plan['locations'])
 ```
 
-```shell
-$ cd app/build/outputs/apk/release
-$ adb -s RF9M33Z1Q0M install app-release-unsigned.apk
+Get the OS list and filter by name
+
+```python
+os_list = vultr.list_os()
+ubuntu_lts = vultr.filter_os(os_list, 'Ubuntu 20.04 x64')
 ```
 
-_Note: you may have to uninstall before installing due to different certificate signatures._
+Create a new ssh key from key string
 
-For more details, see the [ADB Documentation](https://developer.android.com/tools/adb#move).
+```python
+sshkey = vultr.create_key('key-name', 'ssh-rsa AAAA...')
+```
 
-# Development
+Create a new instance
 
-Android Studio: https://developer.android.com/studio
+```python
+hostname = 'my-new-host'
+data = {
+    'region': available[0]['id'],
+    'plan': plan['id'],
+    'os_id': ubuntu_lts['id'],
+    'sshkey_id': [sshkey['id']],
+    'hostname': hostname,
+    'label': hostname,
+}
+instance = vultr.create_instance(**data)
+```
 
-For now see [Install](#Install).
+Full Documentation: [https://cssnr.github.io/vultr-python](https://cssnr.github.io/vultr-python)
+
+Vultr API Reference: [https://www.vultr.com/api](https://www.vultr.com/api/?ref=6905748)
 
 # Support
 
 For general help or to request a feature, see:
 
-- Q&A Discussion: https://github.com/django-files/android-client/discussions/categories/q-a
-- Request a Feature: https://github.com/django-files/android-client/discussions/categories/feature-requests
+- Q&A Discussion: <https://github.com/cssnr/vultr-python/discussions/categories/q-a>
+- Request a Feature: <https://github.com/cssnr/vultr-python/discussions/categories/feature-requests>
+- Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
 
 If you are experiencing an issue/bug or getting unexpected results, you can:
 
-- Report an Issue: https://github.com/django-files/android-client/issues
-- Chat with us on Discord: https://discord.gg/wXy6m2X8wY
-- Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=Django%20Files%20Android%20App)
+- Report an Issue: <https://github.com/cssnr/vultr-python/issues>
+- Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=vultr-python)
+- Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
 
 # Contributing
 
-Currently, the best way to contribute to this project is to star this project on GitHub.
+If you would like to submit a PR, please review the [CONTRIBUTING.md](#contributing-ov-file).
 
-You can also support other related projects:
+Please consider making a donation to support the development of this project
+and [additional](https://cssnr.com/) open source projects.
 
-- [Django Files Server](https://github.com/django-files/django-files)
-- [Django Files iOS App](https://github.com/django-files/ios-client)
-- [Django Files Android App](https://github.com/django-files/android-client)
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/cssnr)
+
+For a full list of current projects visit: [https://cssnr.github.io/](https://cssnr.github.io/)
