@@ -114,9 +114,9 @@ Note: the results are different from the source, but the structure is identical.
     echo "data: ${{ fromJSON(steps.test.outputs.data) }}"
 ```
 
-Results name: `toml-action`
+Results **name**: `toml-action`
 
-<details><summary>Results data: <i>click to view</i></summary>
+<details><summary>Results <b>data</b>: <i>click to view</i></summary>
 
 ```json
 {
