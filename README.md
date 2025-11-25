@@ -51,7 +51,7 @@ authors = [{ name="Shane" }]
 
 </details>
 
-### Get a Value.
+**Get a Value.**
 
 ```yaml
 - name: 'TOML Action'
@@ -68,7 +68,7 @@ authors = [{ name="Shane" }]
 
 Results: `Shane`
 
-### Edit a Value.
+**Edit a Value.**
 
 ```yaml
 - name: 'TOML Action'
@@ -100,7 +100,7 @@ Note: the results are different from the source, but the structure is identical.
 
 </details>
 
-### Parse a File
+**Parse a File**
 
 ```yaml
 - name: 'TOML Action'
