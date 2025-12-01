@@ -1,166 +1,194 @@
-[![PyPI Version](https://img.shields.io/pypi/v/vultr-python?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/vultr-python/)
-[![TOML Python Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcssnr%2Fvultr-python%2Frefs%2Fheads%2Fmaster%2Fpyproject.toml&query=%24.project.requires-python&logo=python&logoColor=white&label=python)](https://github.com/cssnr/vultr-python?tab=readme-ov-file#readme)
-[![PyPI Downloads](https://img.shields.io/pypi/dm/vultr-python?logo=pypi&logoColor=white)](https://pypistats.org/packages/vultr-python)
-[![Pepy Total Downloads](https://img.shields.io/pepy/dt/vultr-python?logo=pypi&logoColor=white&label=total)](https://clickpy.clickhouse.com/dashboard/vultr-python)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/9b356c4327df41e395c81de1c717ce11)](https://app.codacy.com/gh/cssnr/vultr-python/dashboard)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=cssnr_vultr-python&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=cssnr_vultr-python)
-[![Workflow Lint](https://img.shields.io/github/actions/workflow/status/cssnr/vultr-python/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/vultr-python/actions/workflows/lint.yaml)
-[![Workflow Test](https://img.shields.io/github/actions/workflow/status/cssnr/vultr-python/test.yaml?logo=cachet&label=test)](https://github.com/cssnr/vultr-python/actions/workflows/test.yaml)
-[![Deployments PyPi](https://img.shields.io/github/deployments/cssnr/vultr-python/pypi?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/vultr-python/)
-[![Deployments Pages](https://img.shields.io/github/deployments/cssnr/vultr-python/github-pages?logo=materialformkdocs&logoColor=white&label=github-pages)](https://cssnr.github.io/vultr-python/)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/vultr-python?logo=github&label=updated)](https://github.com/cssnr/vultr-python/graphs/commit-activity)
-[![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/vultr-python?logo=bookstack&logoColor=white&label=repo%20size)](https://github.com/cssnr/vultr-python)
-[![GitHub Top Language](https://img.shields.io/github/languages/top/cssnr/vultr-python?logo=htmx&logoColor=white)](https://github.com/cssnr/vultr-python?tab=readme-ov-file#readme)
-[![GitHub Contributors](https://img.shields.io/github/contributors-anon/cssnr/vultr-python?logo=github)](https://github.com/cssnr/vultr-python/graphs/contributors)
-[![GitHub Discussions](https://img.shields.io/github/discussions/cssnr/vultr-python?logo=github)](https://github.com/cssnr/vultr-python/discussions)
-[![GitHub Forks](https://img.shields.io/github/forks/cssnr/vultr-python?style=flat&logo=github)](https://github.com/cssnr/vultr-python/forks)
-[![GitHub Repo Stars](https://img.shields.io/github/stars/cssnr/vultr-python?style=flat&logo=github)](https://github.com/cssnr/vultr-python/stargazers)
+[![PyPI Version](https://img.shields.io/pypi/v/zipline-cli?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/zipline-cli/)
+[![GitHub Release Version](https://img.shields.io/github/v/release/cssnr/zipline-cli?logo=github)](https://github.com/cssnr/zipline-cli/releases)
+[![TOML Python Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcssnr%2Fzipline-cli%2Frefs%2Fheads%2Fmaster%2Fpyproject.toml&query=%24.project.requires-python&logo=python&logoColor=white&label=python)](https://github.com/cssnr/zipline-cli?tab=readme-ov-file#readme)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/zipline-cli?logo=pypi&logoColor=white)](https://pypistats.org/packages/zipline-cli)
+[![Pepy Total Downloads](https://img.shields.io/pepy/dt/zipline-cli?logo=pypi&logoColor=white&label=total)](https://clickpy.clickhouse.com/dashboard/zipline-cli)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=cssnr_zipline-cli&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=cssnr_zipline-cli)
+[![Workflow Test](https://img.shields.io/github/actions/workflow/status/cssnr/zipline-cli/test.yaml?logo=cachet&label=test)](https://github.com/cssnr/zipline-cli/actions/workflows/test.yaml)
+[![Workflow Lint](https://img.shields.io/github/actions/workflow/status/cssnr/zipline-cli/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/zipline-cli/actions/workflows/lint.yaml)
+[![Workflow Release](https://img.shields.io/github/actions/workflow/status/cssnr/zipline-cli/release.yaml?logo=cachet&label=release)](https://github.com/cssnr/zipline-cli/actions/workflows/release.yaml)
+[![Deployment PyPi](https://img.shields.io/github/deployments/cssnr/zipline-cli/pypi?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/zipline-cli/)
+[![Deployment Docs](https://img.shields.io/github/deployments/cssnr/zipline-cli/docs?logo=materialformkdocs&logoColor=white&label=docs)](https://zipline-cli.cssnr.com/)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/zipline-cli?logo=github&label=updated)](https://github.com/cssnr/zipline-cli/graphs/commit-activity)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/zipline-cli?logo=bookstack&logoColor=white&label=repo%20size)](https://github.com/cssnr/zipline-cli)
+[![GitHub Top Language](https://img.shields.io/github/languages/top/cssnr/zipline-cli?logo=htmx&logoColor=white)](https://github.com/cssnr/zipline-cli?tab=readme-ov-file#readme)
+[![GitHub Contributors](https://img.shields.io/github/contributors-anon/cssnr/zipline-cli?logo=github)](https://github.com/cssnr/zipline-cli/graphs/contributors)
+[![GitHub Discussions](https://img.shields.io/github/discussions/cssnr/cloudflare-purge-cache-action?logo=github)](https://github.com/cssnr/cloudflare-purge-cache-action/discussions)
+[![GitHub Forks](https://img.shields.io/github/forks/cssnr/zipline-cli?style=flat&logo=github)](https://github.com/cssnr/zipline-cli/forks)
+[![GitHub Repo Stars](https://img.shields.io/github/stars/cssnr/zipline-cli?style=flat&logo=github)](https://github.com/cssnr/zipline-cli/stargazers)
 [![GitHub Org Stars](https://img.shields.io/github/stars/cssnr?style=flat&logo=github&label=org%20stars)](https://cssnr.github.io/)
 [![Discord](https://img.shields.io/discord/899171661457293343?logo=discord&logoColor=white&label=discord&color=7289da)](https://discord.gg/wXy6m2X8wY)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-72a5f2?logo=kofi&label=support)](https://ko-fi.com/cssnr)
+[![](https://repository-images.githubusercontent.com/661201286/8dfadbc8-94c0-4eaa-88bd-7ee351859510)](https://zipline-cli.cssnr.com/)
 
-# Vultr Python
+# Zipline CLI
 
-<a title="Vultr Python" href="https://cssnr.github.io/vultr-python/" target="_blank">
-<img alt="Vultr Python" align="right" width="128" height="auto" src="https://raw.githubusercontent.com/cssnr/vultr-python/refs/heads/master/.github/assets/logo.svg"></a>
+<a title="Zipline CLI" href="https://zipline-cli.cssnr.com/" target="_blank">
+<img alt="Zipline CLI" align="right" width="128" height="auto" src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/cli/logo128.png"></a>
 
+- [Quick Start](#Quick-Start)
 - [Install](#Install)
 - [Usage](#Usage)
+- [Environment Variables](#Environment-Variables)
+- [API Reference](#API-Reference)
 - [Support](#Support)
 - [Contributing](#Contributing)
 
-Python 3 wrapper for the Vultr API v2.
+Python 3 CLI File Uploader for [Diced/Zipline](https://github.com/diced/zipline) v3/v4 Upload Server and [Django Files](https://github.com/django-files/django-files).
 
-[![GitHub](https://img.shields.io/badge/github-232925?style=for-the-badge&logo=github)](https://github.com/cssnr/vultr-python?tab=readme-ov-file#readme)
-[![PyPi](https://img.shields.io/badge/pypi-006dad?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/vultr-python)
-[![Docs](https://img.shields.io/badge/docs-198754?style=for-the-badge&logo=mdbook)](https://cssnr.github.io/vultr-python/)
-[![Vultr](https://img.shields.io/badge/vultr-007bfc?style=for-the-badge&logo=vultr)](https://www.vultr.com/api/?ref=6905748)
-
-Vultr API Reference: [https://www.vultr.com/api](https://www.vultr.com/api/?ref=6905748)
+- Zipline: [https://zipline.diced.sh/](https://zipline.diced.sh/)
+- Django Files: [https://django-files.github.io/](https://django-files.github.io/)
 
 > [!TIP]  
-> Please submit a [Feature Request](https://github.com/cssnr/vultr-python/discussions/categories/feature-requests)
-> or report any [Issues](https://github.com/cssnr/vultr-python/issues).
+> If you have any trouble getting started, [support is available](#Support).  
+> You can also [request new features](https://github.com/cssnr/zipline-cli/discussions/new?category=feature-requests)
+> or report any [issues](https://github.com/cssnr/zipline-cli/issues/new).
 
-For more details visit [www.vultr.com](https://www.vultr.com/?ref=6905748).
+## Quick Start<a id="Quick-Start"></a>
+
+```shell
+python -m pip install zipline-cli
+zipline --setup
+```
+
+Documentation: https://zipline-cli.cssnr.com/
 
 ## Install<a id="Install"></a>
 
-From PyPi: <https://pypi.org/project/vultr-python>
+From PyPI: https://pypi.org/p/zipline-cli
 
-```text
-python -m pip install vultr-python
+```shell
+python -m pip install zipline-cli
 ```
 
-From Source:
+From GitHub using pip.
 
-```text
-git clone https://github.com/cssnr/vultr-python.git
-python -m pip install vultr-python
+```shell
+python -m pip install git+https://github.com/cssnr/zipline-cli.git
+```
+
+From Source using pip.
+
+```shell
+git clone https://github.com/cssnr/zipline-cli.git
+python -m pip install zipline-cli
+```
+
+Uninstall.
+
+```shell
+python -m pip uninstall zipline-cli
 ```
 
 ## Usage<a id="Usage"></a>
 
-You will need to create an api key and whitelist your IP address for most functions.
+> [!TIP]  
+> View the [Getting Started](https://zipline-cli.cssnr.com/) guide online.
 
-- [https://my.vultr.com/settings/#settingsapi](https://my.vultr.com/settings/#settingsapi)
+Setup Zipline URL and Token:
 
-Initialize the `Vultr` class with your API Key or use the `VULTR_API_KEY` environment variable.
-
-```python
-from vultr import Vultr
-
-vultr = Vultr("VULTR_API_KEY")
+```shell
+zipline --setup
 ```
 
-List plans and get available regions for that plan
+Upload a File:
 
-```python
-plans = vultr.list_plans({"type": "vc2"})  # Filter by type
-plan = plans[0]  # 0 seems to be the base plan
-regions = vultr.list_regions()
-available = vultr.filter_regions(regions, plan["locations"])
+```shell
+zipline test.txt
 ```
 
-Get the OS list and filter by name
+Upload Multiple Files:
 
-```python
-os_list = vultr.list_os()
-ubuntu_lts = vultr.filter_os(os_list, "Ubuntu 24.04 LTS x64")
+```shell
+zipline file1.txt file2.txt
 ```
 
-Create a new ssh key from key string
+Create Text File from Input
 
-```python
-sshkey = vultr.create_key("key-name", "ssh-rsa AAAA...")
-vultr.delete_key(sshkey['id'])
+```shell
+cat test.txt | zipline
 ```
 
-Create a new instance
+Create Text File from Clipboard
 
-```python
-data = {
-    "os_id": ubuntu_lts["id"],
-    "sshkey_id": [sshkey["id"]],
-    "hostname": "my-new-host",
-    "label": "my-new-host",
-}
-instance = vultr.create_instance(available[0], plan, **data)
+```shell
+zipline
+# Paste or Type contents, followed by a newline, then Ctrl+D (Ctrl+Z on Windows)
 ```
 
-Arbitrary Methods `get`, `post`, `patch`, `put`, `delete`
+## Environment Variables<a id="Environment-Variables"></a>
 
-```python
-plans = vultr.get("/plans", {"type": "vc2"})
-sshkey = vultr.post("/ssh-keys", name="key-name", ssh_key="ssh-rsa AAAA...")
-instance = vultr.patch("/instances/{instance-id}", plan=plans[1]["id"])
-database = vultr.put("/databases/{database-id}", tag="new tag")
-vultr.delete("/snapshots/{snapshot-id}")
+Environment Variables are stored in the `.zipline` file in your home directory.
+
+- Location: `~/.zipline` or `$HOME/.zipline`
+
+| Variable         | Description                                                                                                                                                                                      |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `ZIPLINE_URL`    | URL to your Zipline Instance                                                                                                                                                                     |
+| `ZIPLINE_TOKEN`  | Authorization Token from Zipline                                                                                                                                                                 |
+| `ZIPLINE_EMBED`  | Set this enable Embed on your uploads                                                                                                                                                            |
+| `ZIPLINE_FORMAT` | Output Format. Variables: `{filename}`, `{url}` and `{raw_url}`                                                                                                                                  |
+| `ZIPLINE_EXPIRE` | Reference: [Zipline](https://zipline.diced.sh/docs/guides/upload-options#image-expiration) / [Django Files](https://github.com/onegreyonewhite/pytimeparse2#pytimeparse2-time-expression-parser) |
+
+See [.zipline.example](.zipline.example) for an example `.zipline` file.
+
+You may override them by exporting the variables in your current environment
+or using the corresponding command line arguments.
+
+```shell
+zipline -h
 ```
 
-Error Handling
+## API Reference<a id="API-Reference"></a>
+
+Initialize the class with your Zipline URL.
+Everything else is a header passed as a kwarg.
+The API does not yet support environment variables.
+
+Zipline Token/Authorization is a header kwarg and can be passed as follows:
 
 ```python
->>> instance = vultr.create_instance("atl", "vc2-1c-0.5gb-v6", os_id=2284)
-Traceback (most recent call last):
-vultr.vultr.VultrException: Error 400: Server add failed: Ubuntu 24.04 LTS x64 requires a plan with at least 1000 MB memory.
+from zipline import Zipline
+zipline = Zipline('ZIPLINE_URL', authorization='ZIPLINE_TOKEN')
 ```
 
-Using the `VultrException` class
+Upload a File
 
 ```python
-from vultr import VultrException
-
-try:
-    instance = vultr.create_instance("atl", "vc2-1c-0.5gb-v6", os_id=2284)
-except VultrException as error:
-    print(error.error)
-    # 'Server add failed: Ubuntu 24.04 LTS x64 requires a plan with at least 1000 MB memory.'
-    print(error.status)
-    # 400
+from zipline import Zipline
+zipline = Zipline('ZIPLINE_URL', authorization='ZIPLINE_TOKEN')
+with open('text.txt') as f:
+    url = zipline.send_file('test.txt', f)
+print(url)
 ```
-
-Full Documentation: [https://cssnr.github.io/vultr-python](https://cssnr.github.io/vultr-python/)
-
-Vultr API Reference: [https://www.vultr.com/api](https://www.vultr.com/api/?ref=6905748)
 
 # Support<a id="Support"></a>
 
 For general help or to request a feature, see:
 
-- Q&A Discussion: <https://github.com/cssnr/vultr-python/discussions/categories/q-a>
-- Request a Feature: <https://github.com/cssnr/vultr-python/discussions/categories/feature-requests>
-- Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
+- Q&A Discussion: https://github.com/cssnr/zipline-cli/discussions/categories/q-a
+- Request a Feature: https://github.com/cssnr/zipline-cli/discussions/categories/feature-requests
+- Chat with us on Discord: https://discord.gg/wXy6m2X8wY
 
 If you are experiencing an issue/bug or getting unexpected results, you can:
 
-- Report an Issue: <https://github.com/cssnr/vultr-python/issues>
-- Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=vultr-python)
-- Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
+- Report an Issue: https://github.com/cssnr/zipline-cli/issues
+- Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=zipline-cli)
+- Chat with us on Discord: https://discord.gg/wXy6m2X8wY
 
 # Contributing<a id="Contributing"></a>
 
-If you would like to submit a PR, please review the [CONTRIBUTING.md](#contributing-ov-file).
+All contributions are welcome including [bug reports](https://github.com/cssnr/zipline-cli/issues),
+[feature requests](https://github.com/cssnr/zipline-cli/discussions/categories/feature-requests),
+or [pull requests](https://github.com/cssnr/zipline-cli/discussions) (please start a discussion).
+
+See the [CONTRIBUTING.md](#contributing-ov-file) for more details.
+
+More Zipline Projects:
+
+- [Zipline CLI](https://zipline-cli.cssnr.com/) - [Source Code](https://github.com/cssnr/zipline-cli?tab=readme-ov-file#readme)
+- [Zipline Web Extension](https://zipline-extension.cssnr.com/) - [Source Code](https://github.com/cssnr/zipline-extension?tab=readme-ov-file#readme)
+- [Zipline Android Application](https://zipline-android.cssnr.com/) - [Source Code](https://github.com/cssnr/zipline-android?tab=readme-ov-file#readme)
 
 Please consider making a donation to support the development of this project
 and [additional](https://cssnr.com/) open source projects.
