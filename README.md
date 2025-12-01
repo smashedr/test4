@@ -26,13 +26,13 @@
 <a title="Zipline CLI" href="https://zipline-cli.cssnr.com/" target="_blank">
 <img alt="Zipline CLI" align="right" width="128" height="auto" src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/zipline/cli/logo128.png"></a>
 
-- [Quick Start](#Quick-Start)
-- [Install](#Install)
-- [Usage](#Usage)
-- [Environment Variables](#Environment-Variables)
-- [API Reference](#API-Reference)
-- [Support](#Support)
-- [Contributing](#Contributing)
+- [Quick Start](#quick-start)
+- [Install](#install)
+- [Usage](#usage)
+- [Environment Variables](#environment-variables)
+- [API Reference](#api-reference)
+- [Support](#support)
+- [Contributing](#contributing)
 
 Python 3 CLI File Uploader for [Diced/Zipline](https://github.com/diced/zipline) v3/v4 Upload Server and [Django Files](https://github.com/django-files/django-files).
 
@@ -116,7 +116,7 @@ zipline
 # Paste or Type contents, followed by a newline, then Ctrl+D (Ctrl+Z on Windows)
 ```
 
-## Environment Variables<a id="Environment-Variables"></a>
+## Environment Variables<a id="Environment Variables"></a>
 
 Environment Variables are stored in the `.zipline` file in your home directory.
 
@@ -139,7 +139,7 @@ or using the corresponding command line arguments.
 zipline -h
 ```
 
-## API Reference<a id="API-Reference"></a>
+## API Reference<a id="API Reference"></a>
 
 Initialize the class with your Zipline URL.
 Everything else is a header passed as a kwarg.
