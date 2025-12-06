@@ -38,10 +38,12 @@ python -m pip install npmstat
 Get Package Stats.
 
 ```shell
-npmstat stats npmstat
+npmstat stats @cssnr/vitepress-swiper
 ```
 
 ## Usage
+
+[![View Documentation](https://img.shields.io/badge/view_documentation-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/npmstat/)
 
 ```shell
 usage: npmstat [-h] [-i N] [-v] [-C] [-V] [package] {info,stats} ...
