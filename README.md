@@ -7,7 +7,7 @@
 [![Workflow Lint](https://img.shields.io/github/actions/workflow/status/cssnr/npmstat/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/npmstat/actions/workflows/lint.yaml)
 [![Workflow Test](https://img.shields.io/github/actions/workflow/status/cssnr/npmstat/test.yaml?logo=cachet&label=test)](https://github.com/cssnr/npmstat/actions/workflows/test.yaml)
 [![Deployment PyPi](https://img.shields.io/github/deployments/cssnr/npmstat/pypi?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/npmstat/)
-[![Deployment Docs](https://img.shields.io/github/deployments/cssnr/npmstat/docs?logo=materialformkdocs&logoColor=white&label=docs)](https://npmstat.cssnr.com/)
+[![Deployment Docs](https://img.shields.io/github/deployments/cssnr/npmstat/docs?logo=materialformkdocs&logoColor=white&label=docs)](https://cssnr.github.io/npmstat/)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/npmstat?logo=github&label=updated)](https://github.com/cssnr/npmstat/pulse)
 [![GitHub Top Language](https://img.shields.io/github/languages/top/cssnr/npmstat?logo=htmx&logoColor=white)](https://github.com/cssnr/npmstat?tab=readme-ov-file#readme)
 [![GitHub Contributors](https://img.shields.io/github/contributors-anon/cssnr/npmstat?logo=github)](https://github.com/cssnr/npmstat/graphs/contributors)
