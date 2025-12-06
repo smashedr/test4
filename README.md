@@ -88,7 +88,7 @@ If you are experiencing an issue/bug or getting unexpected results, you can:
 - Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=npmstat)
 - Chat with us on Discord: https://discord.gg/wXy6m2X8wY
 
-# Contributing
+## Contributing
 
 Contributing and Development docs are in the [CONTRIBUTING.md](#contributing-ov-file).
 
