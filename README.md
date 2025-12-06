@@ -25,7 +25,9 @@
 - [Usage](#usage)
 - [Development](#development)
 
-Get NPM Package Info and Stats from the [command line](cli.md) or as a [Python module](module.md).
+Get NPM Package Info and Stats from the command line or as a Python module.
+
+[![View Documentation](https://img.shields.io/badge/view_documentation-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/npmstat/)
 
 ## Install
 
@@ -42,8 +44,6 @@ npmstat stats @cssnr/vitepress-swiper
 ```
 
 ## Usage
-
-[![View Documentation](https://img.shields.io/badge/view_documentation-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/npmstat/)
 
 ```shell
 usage: npmstat [-h] [-i N] [-v] [-C] [-V] [package] {info,stats} ...
