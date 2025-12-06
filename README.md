@@ -28,7 +28,9 @@
 - [Usage](#usage)
 - [Development](#development)
 
-Get NPM Package Info and Stats from the command line or as a Python module.
+Get NPM Package Stats and Info.
+
+Includes a command line interface and Python module.
 
 ## Install
 
