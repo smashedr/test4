@@ -21,7 +21,7 @@
 
 # NPM Stat
 
-<a title="NPM Stat" href="https://actions-tools.cssnr.com/" target="_blank">
+<a title="NPM Stat" href="https://cssnr.github.io/npmstat/" target="_blank">
 <img alt="NPM Stat" align="right" width="128" height="auto" src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/npmstat/logo.png"></a>
 
 - [Install](#install)
@@ -78,14 +78,14 @@ options:
 
 For general help or to request a feature, see:
 
-- Q&A Discussion: https://github.com/cssnr/actions-tools/discussions/categories/q-a
-- Request a Feature: https://github.com/cssnr/actions-tools/discussions/categories/feature-requests
+- Q&A Discussion: https://github.com/cssnr/npmstat/discussions/categories/q-a
+- Request a Feature: https://github.com/cssnr/npmstat/discussions/categories/feature-requests
 - Chat with us on Discord: https://discord.gg/wXy6m2X8wY
 
 If you are experiencing an issue/bug or getting unexpected results, you can:
 
-- Report an Issue: https://github.com/cssnr/actions-tools/issues
-- Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=actions-tools)
+- Report an Issue: https://github.com/cssnr/npmstat/issues
+- Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=npmstat)
 - Chat with us on Discord: https://discord.gg/wXy6m2X8wY
 
 # Contributing
