@@ -30,7 +30,7 @@
 
 Get NPM Package Stats and Info.
 
-Includes a command line interface and Python module.
+Includes a command line interface and a Python module.
 
 ## Install
 
