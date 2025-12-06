@@ -21,6 +21,9 @@
 
 # NPM Stat
 
+<a title="NPM Stat" href="https://actions-tools.cssnr.com/" target="_blank">
+<img alt="NPM Stat" align="right" width="128" height="auto" src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/npmstat/logo.png"></a>
+
 - [Install](#install)
 - [Usage](#usage)
 - [Development](#development)
