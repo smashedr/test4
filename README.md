@@ -26,7 +26,8 @@
 
 - [Install](#install)
 - [Usage](#usage)
-- [Development](#development)
+- [Support](#support)
+- [Contributing](#contributing)
 
 Get NPM Package Stats and Info.
 
@@ -73,6 +74,25 @@ options:
 
 [![View Documentation](https://img.shields.io/badge/view_documentation-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/npmstat/)
 
-# Development
+## Support
 
-Development instructions have been added to the [CONTRIBUTING.md](#contributing-ov-file).
+For general help or to request a feature, see:
+
+- Q&A Discussion: https://github.com/cssnr/actions-tools/discussions/categories/q-a
+- Request a Feature: https://github.com/cssnr/actions-tools/discussions/categories/feature-requests
+- Chat with us on Discord: https://discord.gg/wXy6m2X8wY
+
+If you are experiencing an issue/bug or getting unexpected results, you can:
+
+- Report an Issue: https://github.com/cssnr/actions-tools/issues
+- Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=actions-tools)
+- Chat with us on Discord: https://discord.gg/wXy6m2X8wY
+
+# Contributing
+
+Contributing and Development docs are in the [CONTRIBUTING.md](#contributing-ov-file).
+
+Please consider making a donation to support the development of this project
+and [additional](https://cssnr.com/) open source projects.
+
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/cssnr)
