@@ -27,8 +27,6 @@
 
 Get NPM Package Info and Stats from the command line or as a Python module.
 
-[![View Documentation](https://img.shields.io/badge/view_documentation-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/npmstat/)
-
 ## Install
 
 Install From PyPI: https://pypi.org/p/npmstat
@@ -43,7 +41,11 @@ Get Package Stats.
 npmstat stats @cssnr/vitepress-swiper
 ```
 
+[![View Documentation](https://img.shields.io/badge/view_documentation-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/npmstat/)
+
 ## Usage
+
+To use run `npmstat` from your command line.
 
 ```shell
 usage: npmstat [-h] [-i N] [-v] [-C] [-V] [package] {info,stats} ...
