@@ -81,10 +81,18 @@ python -m pip install sharex-cli
 
 To configure you need your server's ShareX Custom Uploader `*.sxcu` configuration JSON.
 
-The `--config` command allows you to enter the file path, or open a text editor.
+The app will automatically enter configuration on the first run.
 
 ```shell
-sharex --config
+sharex
+```
+
+This allows you to enter a file path, or open a text editor to enter the contents.
+
+You can reconfigure with `--config` and pass a path to the config file.
+
+```shell
+sharex --config path/to/config.sxcu
 ```
 
 [![View Setup Guide](https://img.shields.io/badge/view_setup_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#setup)
