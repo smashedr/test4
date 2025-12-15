@@ -62,6 +62,19 @@ From PyPI: <https://pypi.org/p/sharex-cli>
 python -m pip install sharex-cli
 ```
 
+From GitHub using pip.
+
+```shell
+python -m pip install git+https://github.com/cssnr/sharex-cli.git
+```
+
+From source using pip.
+
+```shell
+git clone https://github.com/cssnr/sharex-cli.git
+python -m pip install sharex-cli
+```
+
 [![View Install Guide](https://img.shields.io/badge/view_install_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#uploading)
 
 ## Setup<a id="setup"></a>
