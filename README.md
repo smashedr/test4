@@ -1,98 +1,124 @@
-[![PyPI Version](https://img.shields.io/pypi/v/npmstat?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/npmstat/)
-[![GitHub Release Version](https://img.shields.io/github/v/release/cssnr/npmstat?logo=github)](https://github.com/cssnr/npmstat/releases)
-[![TOML Python Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcssnr%2Fnpmstat%2Frefs%2Fheads%2Fmaster%2Fpyproject.toml&query=%24.project.requires-python&logo=python&logoColor=white&label=python)](https://github.com/cssnr/npmstat?tab=readme-ov-file#readme)
-[![PyPI Downloads](https://img.shields.io/pypi/dm/npmstat?logo=pypi&logoColor=white)](https://pypistats.org/packages/npmstat)
-[![Pepy Total Downloads](https://img.shields.io/pepy/dt/npmstat?logo=pypi&logoColor=white&label=total)](https://clickpy.clickhouse.com/dashboard/npmstat)
-[![Codecov](https://codecov.io/gh/cssnr/npmstat/graph/badge.svg?token=A8NDHZ393X)](https://codecov.io/gh/cssnr/npmstat)
-[![Workflow Lint](https://img.shields.io/github/actions/workflow/status/cssnr/npmstat/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/npmstat/actions/workflows/lint.yaml)
-[![Workflow Test](https://img.shields.io/github/actions/workflow/status/cssnr/npmstat/test.yaml?logo=cachet&label=test)](https://github.com/cssnr/npmstat/actions/workflows/test.yaml)
-[![Deployment PyPi](https://img.shields.io/github/deployments/cssnr/npmstat/pypi?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/npmstat/)
-[![Deployment Docs](https://img.shields.io/github/deployments/cssnr/npmstat/docs?logo=materialformkdocs&logoColor=white&label=docs)](https://cssnr.github.io/npmstat/)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/npmstat?logo=github&label=updated)](https://github.com/cssnr/npmstat/pulse)
-[![GitHub Top Language](https://img.shields.io/github/languages/top/cssnr/npmstat?logo=htmx&logoColor=white)](https://github.com/cssnr/npmstat?tab=readme-ov-file#readme)
-[![GitHub Contributors](https://img.shields.io/github/contributors-anon/cssnr/npmstat?logo=github)](https://github.com/cssnr/npmstat/graphs/contributors)
-[![GitHub Issues](https://img.shields.io/github/issues/cssnr/npmstat?logo=github)](https://github.com/cssnr/npmstat/issues)
-[![GitHub Discussions](https://img.shields.io/github/discussions/cssnr/npmstat?logo=github)](https://github.com/cssnr/npmstat/discussions)
-[![GitHub Forks](https://img.shields.io/github/forks/cssnr/npmstat?style=flat&logo=github)](https://github.com/cssnr/npmstat/forks)
-[![GitHub Repo Stars](https://img.shields.io/github/stars/cssnr/npmstat?style=flat&logo=github)](https://github.com/cssnr/npmstat/stargazers)
+[![PyPI Version](https://img.shields.io/pypi/v/sharex-cli?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/sharex-cli/)
+[![GitHub Release Version](https://img.shields.io/github/v/release/cssnr/sharex-cli?logo=github)](https://github.com/cssnr/sharex-cli/releases)
+[![TOML Python Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcssnr%2Fsharex-cli%2Frefs%2Fheads%2Fmaster%2Fpyproject.toml&query=%24.project.requires-python&logo=python&logoColor=white&label=python)](https://github.com/cssnr/sharex-cli?tab=readme-ov-file#readme)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/sharex-cli?logo=pypi&logoColor=white)](https://pypistats.org/packages/sharex-cli)
+[![Pepy Total Downloads](https://img.shields.io/pepy/dt/sharex-cli?logo=pypi&logoColor=white&label=total)](https://clickpy.clickhouse.com/dashboard/sharex-cli)
+[![Codecov](https://codecov.io/gh/cssnr/sharex-cli/graph/badge.svg?token=A8NDHZ393X)](https://codecov.io/gh/cssnr/sharex-cli)
+[![Workflow Lint](https://img.shields.io/github/actions/workflow/status/cssnr/sharex-cli/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/sharex-cli/actions/workflows/lint.yaml)
+[![Workflow Test](https://img.shields.io/github/actions/workflow/status/cssnr/sharex-cli/test.yaml?logo=cachet&label=test)](https://github.com/cssnr/sharex-cli/actions/workflows/test.yaml)
+[![Deployment PyPi](https://img.shields.io/github/deployments/cssnr/sharex-cli/pypi?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/sharex-cli/)
+[![Deployment Docs](https://img.shields.io/github/deployments/cssnr/sharex-cli/docs?logo=materialformkdocs&logoColor=white&label=docs)](https://cssnr.github.io/sharex-cli/)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/sharex-cli?logo=github&label=updated)](https://github.com/cssnr/sharex-cli/pulse)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/sharex-cli?logo=bookstack&logoColor=white&label=repo%20size)](https://github.com/cssnr/sharex-cli)
+[![GitHub Top Language](https://img.shields.io/github/languages/top/cssnr/sharex-cli?logo=htmx&logoColor=white)](https://github.com/cssnr/sharex-cli?tab=readme-ov-file#readme)
+[![GitHub Contributors](https://img.shields.io/github/contributors-anon/cssnr/sharex-cli?logo=github)](https://github.com/cssnr/sharex-cli/graphs/contributors)
+[![GitHub Issues](https://img.shields.io/github/issues/cssnr/sharex-cli?logo=github)](https://github.com/cssnr/sharex-cli/issues)
+[![GitHub Discussions](https://img.shields.io/github/discussions/cssnr/sharex-cli?logo=github)](https://github.com/cssnr/sharex-cli/discussions)
+[![GitHub Forks](https://img.shields.io/github/forks/cssnr/sharex-cli?style=flat&logo=github)](https://github.com/cssnr/sharex-cli/forks)
+[![GitHub Repo Stars](https://img.shields.io/github/stars/cssnr/sharex-cli?style=flat&logo=github)](https://github.com/cssnr/sharex-cli/stargazers)
 [![GitHub Org Stars](https://img.shields.io/github/stars/cssnr?style=flat&logo=github&label=org%20stars)](https://cssnr.github.io/)
 [![Discord](https://img.shields.io/discord/899171661457293343?logo=discord&logoColor=white&label=discord&color=7289da)](https://discord.gg/wXy6m2X8wY)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-72a5f2?logo=kofi&label=support)](https://ko-fi.com/cssnr)
 
-# NPM Stat
+# ShareX CLI
 
-<a title="NPM Stat" href="https://cssnr.github.io/npmstat/" target="_blank">
-<img alt="NPM Stat" align="right" width="128" height="auto" src="https://raw.githubusercontent.com/smashedr/repo-images/refs/heads/master/npmstat/logo.png"></a>
+<a title="ShareX CLI" href="https://cssnr.github.io/sharex-cli/" target="_blank">
+<img alt="ShareX CLI" align="right" width="128" height="auto" src="https://cssnr.github.io/sharex-cli/assets/images/logo.svg"></a>
 
+- [Features](#features)
 - [Install](#install)
+- [Setup](#setup)
 - [Usage](#usage)
 - [Support](#support)
 - [Contributing](#contributing)
 
-Get NPM Package Stats and Info.
+CLI to Upload Files to a ShareX Server using a ShareX Custom Uploader (.sxcu) Configuration File.
 
-Includes a command line interface and a Python module.
+Packed with features you can upload multiple files, specify names, use globs, archive directories and more...
 
-## Install
+If you run into any issues or have any questions, [support](support.md) is available.
 
-Install From PyPI: https://pypi.org/p/npmstat
+To get started [Install](#install) the app and view the [Usage](#usage).
+
+[![View Documentation](https://img.shields.io/badge/view_documentation-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/)
+
+## Features<a id="features"></a>
+
+- Use a ShareX Custom Uploader `*.sxcu` configuration.
+- Upload a file or multiple files.
+- Specify a custom file name.
+- Upload files in a directory with optional glob.
+- Upload a directory as an archive.
+- Automatically open the URL in browser.
+- Automatically copy the URL to the clipboard.
+- Display confirmation before uploading multiple files.
+- Override all options with flags or env vars.
+
+## Install<a id="install"></a>
+
+From PyPI: <https://pypi.org/p/sharex-cli>
 
 ```shell
-python -m pip install npmstat
+python -m pip install sharex-cli
 ```
 
-Get Package Stats.
+[![View Install Guide](https://img.shields.io/badge/view_install_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#uploading)
+
+## Setup<a id="setup"></a>
+
+To configure you need your server's ShareX Custom Uploader `*.sxcu` configuration JSON.
+
+The `--config` command allows you to enter the file path, or open a text editor.
 
 ```shell
-npmstat stats @cssnr/vitepress-swiper
+sharex --config
 ```
 
-[![View Documentation](https://img.shields.io/badge/view_documentation-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/npmstat/)
+[![View Setup Guide](https://img.shields.io/badge/view_setup_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#setup)
 
-## Usage
+## Usage<a id="usage"></a>
 
-To use run `npmstat` from your command line.
+Once the configuration is saved you can upload a file, or multiple.
 
 ```shell
-usage: npmstat [-h] [-i N] [-v] [-C] [-V] [package] {info,stats} ...
-
-NPM Stat
-
-positional arguments:
-  package            Package name
-  {info,stats}
-    info             get detailed package info
-    stats            get package download stats
-
-options:
-  -h, --help         show this help message and exit
-  -i N, --indent N   indent level of json, default: 2
-  -v, --verbose      enable verbose command output
-  -C, --clear-cache  clear the request cache and exit
-  -V, --version      show the package version and exit
+sharex file1.txt /path/to/file2.txt
 ```
 
-[![View Documentation](https://img.shields.io/badge/view_documentation-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/npmstat/)
+You can upload the contents of a directory, default glob is `*`.
 
-## Support
+```shell
+sharex dir1
+```
+
+Or create an archive of the directory (no glob support).
+
+```shell
+sharex /path/to/dir2 -a
+```
+
+[![View Usage Examples](https://img.shields.io/badge/view_usage_examples-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#uploading)
+
+## Support<a id="support"></a>
 
 For general help or to request a feature, see:
 
-- Q&A Discussion: https://github.com/cssnr/npmstat/discussions/categories/q-a
-- Request a Feature: https://github.com/cssnr/npmstat/discussions/categories/feature-requests
-- Chat with us on Discord: https://discord.gg/wXy6m2X8wY
+- Q&A Discussion: <https://github.com/cssnr/sharex-cli/discussions/categories/q-a>
+- Request a Feature: <https://github.com/cssnr/sharex-cli/discussions/categories/feature-requests>
+- Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
 
 If you are experiencing an issue/bug or getting unexpected results, you can:
 
-- Report an Issue: https://github.com/cssnr/npmstat/issues
-- Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=npmstat)
-- Chat with us on Discord: https://discord.gg/wXy6m2X8wY
+- Report an Issue: <https://github.com/cssnr/sharex-cli/issues>
+- Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=sharex-cli)
+- Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
 
-## Contributing
+## Contributing<a id="contributing"></a>
 
-Contributing and Development docs are in the [CONTRIBUTING.md](#contributing-ov-file).
+If you would like to submit a PR, please review the [CONTRIBUTING.md](#contributing-ov-file).
 
 Please consider making a donation to support the development of this project
 and [additional](https://cssnr.com/) open source projects.
 
 [![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/cssnr)
+
+For a full list of current projects visit: [https://cssnr.github.io/](https://cssnr.github.io/)
