@@ -34,7 +34,7 @@
 
 Command Line Interface to Upload Files to a ShareX Server using a ShareX Custom Uploader (.sxcu) configuration file.
 
-Packed with features you can upload multiple files, specify names, use globs, archive directories and more...
+Packed with features! Upload multiple files, directories, use globs, create an archive and much more...
 
 If you run into any issues or have any questions, [support](support.md) is available.
 
