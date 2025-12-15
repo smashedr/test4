@@ -32,7 +32,7 @@
 - [Support](#support)
 - [Contributing](#contributing)
 
-CLI to Upload Files to a ShareX Server using a ShareX Custom Uploader (.sxcu) Configuration File.
+Command Line Interface to Upload Files to a ShareX Server using a ShareX Custom Uploader (.sxcu) configuration file.
 
 Packed with features you can upload multiple files, specify names, use globs, archive directories and more...
 
