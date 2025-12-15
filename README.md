@@ -36,7 +36,7 @@ Command Line Interface to Upload Files to a ShareX Server using a ShareX Custom 
 
 Packed with features! Upload multiple files, directories, use globs, create an archive and much more...
 
-If you run into any issues or have any questions, [support](support.md) is available.
+If you run into any issues or have any questions, [support](#support) is available.
 
 To get started [Install](#install) the app and view the [Usage](#usage).
 
