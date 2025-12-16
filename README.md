@@ -17,7 +17,7 @@ For general help or to request a feature, see:
 
 If you are experiencing an issue/bug or getting unexpected results, you can:
 
-- Report an Issue: <https://github.com/smashedr/test4/issues>
+- Report an Issue: <https://github.com/smashedr/test4/issues/new?template=0-bug.yaml>
 - Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
 
 ## Contributing<a id="contributing"></a>
