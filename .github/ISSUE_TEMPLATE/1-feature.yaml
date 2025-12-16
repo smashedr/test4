@@ -14,14 +14,14 @@ body:
       description: Please describe the feature or enhancement you are requesting and what it should do.
       placeholder: Provide as many details as you can...
 
-  - type: textarea
-    id: logs
-    validations:
-      required: false
-    attributes:
-      label: Log Output
-      description: Text in this box is automatically wrapped in a code block.
-      render: shell
+  #- type: textarea
+  #  id: logs
+  #  validations:
+  #    required: false
+  #  attributes:
+  #    label: Log Output
+  #    description: Text in this box is automatically wrapped in a code block.
+  #    render: shell
 
   - type: markdown
     attributes:
