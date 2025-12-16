@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        All issues will be responded too... Thank you for taking the time to make this report!
+        All issues will be responded too.
 
   - type: input
     id: website
@@ -39,4 +39,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        All issues/bugs that we can verify will be fixed. Thank you for taking the time to make this report!
+        Thank you for taking the time to make this report!

@@ -5,6 +5,11 @@ assignees:
   - smashedr
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        All issues will be responded too.
+
   - type: textarea
     id: description
     validations:
