@@ -1,7 +1,7 @@
 name: "Test Job"
 
 on:
-  push:
+  #push:
   workflow_dispatch:
   release:
     types: [published]
@@ -16,10 +16,19 @@ jobs:
       - name: "Checkout"
         uses: actions/checkout@v4
 
-      - name: "Test"
-        id: test
-        #uses: smashedr/js-test-action@master
-        uses: ./.github/js-test-action
-        with:
-          token: ${{ secrets.TOKEN }}
-          body: ${{ vars.TEST_VAR }}
+      - name: "Debug event.json"
+        if: ${{ !github.event.act }}
+        continue-on-error: true
+        run: cat "${GITHUB_EVENT_PATH}"
+
+      - name: "Debug CTX github"
+        if: ${{ !github.event.act }}
+        continue-on-error: true
+        env:
+          GITHUB_CTX: ${{ toJSON(github) }}
+        run: echo "$GITHUB_CTX"
+
+      - name: "Debug Environment"
+        if: ${{ !github.event.act }}
+        continue-on-error: true
+        run: env
