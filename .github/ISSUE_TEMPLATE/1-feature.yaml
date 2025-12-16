@@ -1,0 +1,29 @@
+name: "💡 Request a Feature"
+description: "Something Not Working Right? Please let us know..."
+labels: ["enhancement"]
+assignees:
+  - smashedr
+
+body:
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: Details
+      description: Please describe the issue you are experiencing and how to reproduce.
+      placeholder: Provide as many details as you can...
+
+  - type: textarea
+    id: logs
+    validations:
+      required: false
+    attributes:
+      label: Log Output
+      description: Paste any relevant logs or output in this box.
+      render: shell
+
+  - type: markdown
+    attributes:
+      value: |
+        All issues/bugs that we can verify will be fixed. Thank you for taking the time to make this report!
