@@ -26,4 +26,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        All issues/bugs that we can verify will be fixed. Thank you for taking the time to make this report!
+        Thank you for taking the time to make this report!

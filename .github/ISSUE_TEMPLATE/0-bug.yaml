@@ -5,6 +5,11 @@ assignees:
   - smashedr
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        All issues will be responded too... Thank you for taking the time to make this report!
+
   - type: input
     id: website
     validations:
