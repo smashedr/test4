@@ -12,12 +12,12 @@
 For general help or to request a feature, see:
 
 - Q&A Discussion: <https://github.com/smashedr/test4/discussions/categories/q-a>
-- Request a Feature: [https://github.com/smashedr/test4/issues](https://github.com/smashedr/test4/issues/new?template=1-feature.yaml)
+- Request a Feature: <https://github.com/smashedr/test4/issues/new?template=1-feature.yaml>
 - Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
 
 If you are experiencing an issue/bug or getting unexpected results, you can:
 
-- Report an Issue: [https://github.com/smashedr/test4/issues](https://github.com/smashedr/test4/issues/new?template=0-bug.yaml)
+- Report an Issue: <https://github.com/smashedr/test4/issues>
 - Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
 
 ## Contributing<a id="contributing"></a>
