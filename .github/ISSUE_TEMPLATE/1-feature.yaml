@@ -1,5 +1,5 @@
 name: "💡 Request a Feature"
-description: "Something Not Working Right? Please let us know..."
+description: "Request New Features or Enhancements"
 labels: ["enhancement"]
 assignees:
   - smashedr
@@ -11,7 +11,7 @@ body:
       required: true
     attributes:
       label: Details
-      description: Please describe the issue you are experiencing and how to reproduce.
+      description: Please describe the feature or enhancement you are requesting and what it should do.
       placeholder: Provide as many details as you can...
 
   - type: textarea
@@ -20,7 +20,7 @@ body:
       required: false
     attributes:
       label: Log Output
-      description: Paste any relevant logs or output in this box.
+      description: Text in this box is automatically wrapped in a code block.
       render: shell
 
   - type: markdown
