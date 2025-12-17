@@ -62,13 +62,13 @@ From PyPI: <https://pypi.org/p/sharex-cli>
 pip install sharex-cli
 ```
 
-From GitHub using pip.
+From GitHub.
 
 ```shell
 pip install git+https://github.com/cssnr/sharex-cli.git
 ```
 
-From source using pip.
+From source.
 
 ```shell
 git clone https://github.com/cssnr/sharex-cli.git
