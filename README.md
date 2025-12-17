@@ -59,20 +59,20 @@ To get started [Install](#install) the app and view the [Usage](#usage).
 From PyPI: <https://pypi.org/p/sharex-cli>
 
 ```shell
-python -m pip install sharex-cli
+pip install sharex-cli
 ```
 
 From GitHub using pip.
 
 ```shell
-python -m pip install git+https://github.com/cssnr/sharex-cli.git
+pip install git+https://github.com/cssnr/sharex-cli.git
 ```
 
 From source using pip.
 
 ```shell
 git clone https://github.com/cssnr/sharex-cli.git
-python -m pip install sharex-cli
+pip install sharex-cli
 ```
 
 [![View Install Guide](https://img.shields.io/badge/view_install_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#uploading)
@@ -124,14 +124,18 @@ sharex /path/to/dir2 -a
 For general help or to request a feature, see:
 
 - Q&A Discussion: <https://github.com/cssnr/sharex-cli/discussions/categories/q-a>
-- Request a Feature: <https://github.com/cssnr/sharex-cli/discussions/categories/feature-requests>
+- Request a Feature: <https://github.com/cssnr/sharex-cli/issues/new?template=1-feature.yaml>
 - Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
 
 If you are experiencing an issue/bug or getting unexpected results, you can:
 
 - Report an Issue: <https://github.com/cssnr/sharex-cli/issues>
-- Provide General Feedback: [https://cssnr.github.io/feedback/](https://cssnr.github.io/feedback/?app=sharex-cli)
 - Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
+
+[![Features](https://img.shields.io/badge/features-brightgreen?style=for-the-badge&logo=googleanalytics&logoColor=white)](https://github.com/cssnr/sharex-cli/issues/new?template=1-feature.yaml)
+[![Issues](https://img.shields.io/badge/issues-red?style=for-the-badge&logo=southwestairlines&logoColor=white)](https://github.com/cssnr/sharex-cli/issues)
+[![Discussions](https://img.shields.io/badge/discussions-blue?style=for-the-badge&logo=rocketdotchat&logoColor=white)](https://github.com/cssnr/sharex-cli/discussions)
+[![Discord](https://img.shields.io/badge/discord-%235865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/wXy6m2X8wY)
 
 ## Contributing<a id="contributing"></a>
 
