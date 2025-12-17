@@ -4,15 +4,20 @@
 
 # Testing
 
+<a title="NPM Stat" href="https://cssnr.github.io/npmstat/" target="_blank">
+<img alt="NPM Stat" align="right" width="128" height="auto" src="https://cssnr.github.io/npmstat/assets/images/logo.svg"></a>
+
+- [Support](#support)
+- [Contributing](#contributing)
+
+This repository is for testing only.
+
+Why are you still reading this, go away!
+
 > [!CAUTION]  
 > TESTING ONLY!
 
 ## Support<a id="support"></a>
-
-[![Request Feature](https://img.shields.io/badge/features-brightgreen?style=for-the-badge&logo=googleanalytics&logoColor=white)](https://github.com/smashedr/test4/issues/new?template=1-feature.yaml)
-[![Report Issue](https://img.shields.io/badge/issues-red?style=for-the-badge&logo=southwestairlines&logoColor=white)](https://github.com/smashedr/test4/issues)
-[![Start Discussion](https://img.shields.io/badge/discussions-blue?style=for-the-badge&logo=rocketdotchat&logoColor=white)](https://github.com/smashedr/test4/discussions)
-[![Join Discord](https://img.shields.io/badge/discord-%235865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/wXy6m2X8wY)
 
 For general help or to request a feature, see:
 
@@ -24,6 +29,11 @@ If you are experiencing an issue/bug or getting unexpected results, you can:
 
 - Report an Issue: <https://github.com/smashedr/test4/issues>
 - Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
+
+[![Request Feature](https://img.shields.io/badge/features-brightgreen?style=for-the-badge&logo=googleanalytics&logoColor=white)](https://github.com/smashedr/test4/issues/new?template=1-feature.yaml)
+[![Report Issue](https://img.shields.io/badge/issues-red?style=for-the-badge&logo=southwestairlines&logoColor=white)](https://github.com/smashedr/test4/issues)
+[![Start Discussion](https://img.shields.io/badge/discussions-blue?style=for-the-badge&logo=rocketdotchat&logoColor=white)](https://github.com/smashedr/test4/discussions)
+[![Join Discord](https://img.shields.io/badge/discord-%235865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/wXy6m2X8wY)
 
 ## Contributing<a id="contributing"></a>
 
