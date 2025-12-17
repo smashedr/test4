@@ -9,6 +9,11 @@
 
 ## Support<a id="support"></a>
 
+[![Request Feature](https://img.shields.io/badge/features-brightgreen?style=for-the-badge&logo=googleanalytics&logoColor=white)](https://github.com/smashedr/test4/issues/new?template=1-feature.yaml)
+[![Report Issue](https://img.shields.io/badge/issues-red?style=for-the-badge&logo=southwestairlines&logoColor=white)](https://github.com/smashedr/test4/issues)
+[![Start Discussion](https://img.shields.io/badge/discussions-blue?style=for-the-badge&logo=rocketdotchat&logoColor=white)](https://github.com/smashedr/test4/discussions)
+[![Join Discord](https://img.shields.io/badge/discord-%235865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/wXy6m2X8wY)
+
 For general help or to request a feature, see:
 
 - Q&A Discussion: <https://github.com/smashedr/test4/discussions/categories/q-a>
