@@ -1,5 +1,5 @@
 name: "⚠️ Report an Issue"
-description: "Something Not Working Right? Please let us know..."
+description: "Please let us know if something is not right..."
 labels: ["bug"]
 assignees:
   - smashedr
@@ -9,14 +9,6 @@ body:
     attributes:
       value: |
         All issues will be responded too.
-
-  - type: input
-    id: website
-    validations:
-      required: false
-    attributes:
-      label: Repo Link
-      description: Please provide a link to the repository or workflow you are having issues with if possible.
 
   - type: textarea
     id: description
