@@ -1,13 +1,13 @@
 blank_issues_enabled: true
 contact_links:
   - name: "❔ Ask a Question"
-    about: Ask a General Question or start a Discussions.
+    about: Ask a general question or start a discussion
     url: https://github.com/cssnr/sharex-cli/discussions/new?category=q-a
 
   - name: "💬 Join Discord"
-    about: Chat with us about Issues, Features, Questions and More.
+    about: Chat with us about issues, features, questions and more
     url: https://discord.gg/wXy6m2X8wY
 
   - name: "📝 View the Documentation"
-    about: Review the Documentation and FAQ.
+    about: Review the documentation and FAQ
     url: https://cssnr.github.io/sharex-cli/
