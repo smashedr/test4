@@ -36,7 +36,7 @@ Command Line Interface to Upload Files to a ShareX Server using a ShareX Custom 
 
 Upload any file, multiple files, directories, use globs, create archives and much more...
 
-To get started [Install](#install) the app and view the [Usage](#usage).
+To get started [Install](#install) the app, [Configure](#configure) your server and view the [Usage](#usage).
 
 If you run into any issues or have any questions, [support](#support) is available.
 
@@ -110,9 +110,11 @@ Directories can be uploaded as files using a glob (default `*`) or as an archive
 
 ```shell
 sharex dir1  # non-recursive
-sharex dir1 -g '**'  # recursive glob
+sharex dir1 -g '**'  # recursive
 sharex dir1 -a  # create an archive
 ```
+
+Tip: you will be shown a confirmation before files are uploaded.
 
 [![View Upload Guide](https://img.shields.io/badge/view_upload_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#upload)
 
