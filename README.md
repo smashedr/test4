@@ -27,12 +27,12 @@
 
 - [Features](#features)
 - [Install](#install)
-- [Setup](#setup)
+- [Configure](#configure)
 - [Usage](#usage)
 - [Support](#support)
 - [Contributing](#contributing)
 
-Command Line Interface to Upload Files to a ShareX Server using a ShareX Custom Uploader `.sxcu` configuration file.
+Command Line Interface to Upload Files to a ShareX Server using a ShareX Custom Uploader `.sxcu` configuration.
 
 Upload any file, multiple files, directories, use globs, create archives and much more...
 
@@ -78,7 +78,7 @@ uv tool install git+https://github.com/cssnr/sharex-cli.git
 
 [![View Install Guide](https://img.shields.io/badge/view_install_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#install)
 
-## Setup<a id="setup"></a>
+## Configure<a id="configure"></a>
 
 To configure you need your server's ShareX Custom Uploader `*.sxcu` configuration JSON.
 
@@ -94,25 +94,27 @@ Or pass the config path directly to `--config`.
 sharex --config path/to/config.sxcu
 ```
 
-[![View Setup Guide](https://img.shields.io/badge/view_setup_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#setup)
+[![View Configure Guide](https://img.shields.io/badge/view_configure_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#configure)
 
 ## Usage<a id="usage"></a>
 
-After [Setup](#setup) you can upload a file, or multiple.
+Once [Configured](#configure) you can upload a file, or multiple.
 
 ```shell
-sharex file1 file2
+sharex file.txt
+sharex file1.txt file2.txt
+sharex file.txt -n name.txt
 ```
 
-Or upload the contents of a directory, default glob is `*`.
+Directories can be uploaded as files using a glob (default `*`) or as an archive.
 
 ```shell
-sharex dir1
+sharex dir1  # non-recursive
+sharex dir1 -g '**'  # recursive glob
+sharex dir1 -a  # create an archive
 ```
 
-Or create an archive of the directory with the `--archive` flag.
-
-[![View Uploading Guide](https://img.shields.io/badge/view_usage_examples-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#uploading)
+[![View Upload Guide](https://img.shields.io/badge/view_upload_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#upload)
 
 ## Support<a id="support"></a>
 
