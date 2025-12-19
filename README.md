@@ -66,7 +66,7 @@ pip install sharex-cli
 uv tool install sharex-cli
 ```
 
-From GitHub.
+From GitHub: [https://github.com/cssnr/sharex-cli?tab=readme-ov-file#readme](https://github.com/cssnr/sharex-cli)
 
 ```shell
 pip install git+https://github.com/cssnr/sharex-cli.git
@@ -98,7 +98,7 @@ sharex --config path/to/config.sxcu
 
 ## Usage<a id="usage"></a>
 
-Once [Configured](#configure) you can upload a file, or multiple.
+To use run the `sharex` command with the path to the file to upload.
 
 ```shell
 sharex file.txt
