@@ -34,12 +34,11 @@ body:
       required: true
     attributes:
       label: ShareX Custom Uploader (*.sxcu) configuration
-      description: IMPORTANT! Make sure to REDACT your Authorization/Token!
+      description: Output is automatically wrapped in a code block.
       render: shell
       placeholder: |
         {
           "Version": "15.0.0",
-          "Name": "Django Files Uploader",
           "RequestMethod": "POST",
           "RequestURL": "REDACTED",
           "Headers": { "Authorization": "REDACTED" },
