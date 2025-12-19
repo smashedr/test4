@@ -66,7 +66,7 @@ pip install sharex-cli
 uv tool install sharex-cli
 ```
 
-From GitHub: [https://github.com/cssnr/sharex-cli?tab=readme-ov-file#readme](https://github.com/cssnr/sharex-cli)
+From GitHub: [https://github.com/cssnr/sharex-cli](https://github.com/cssnr/sharex-cli?tab=readme-ov-file#readme)
 
 ```shell
 pip install git+https://github.com/cssnr/sharex-cli.git
