@@ -22,22 +22,24 @@ body:
   - type: textarea
     id: description
     validations:
-      required: true
+      required: false
     attributes:
-      label: Details
-      description: Please describe the feature or enhancement you are requesting and what it should do.
-      placeholder: Provide as many details as you can...
+      label: Description
+      description: Additional details of the server you are requesting.
+      placeholder: The body of the request, add any relevant information here.
 
   - type: textarea
     id: config
     validations:
       required: true
     attributes:
-      label: ShareX Custom Uploader `*.sxcu` configuration
+      label: ShareX Custom Uploader (*.sxcu) configuration
       description: IMPORTANT! Make sure to REDACT your Authorization/Token!
       render: shell
 
   - type: markdown
     attributes:
       value: |
+        Make sure to remove any personally identifiable information before creating this issue!
+
         Thank you for taking the time to make this report!
