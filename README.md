@@ -120,7 +120,7 @@ Tip: you will be shown a confirmation before files are uploaded.
 
 ## Support<a id="support"></a>
 
-For general help or to request a feature, see:
+If you run into any issues or need help getting started, please do one of the following:
 
 - Q&A Discussion: <https://github.com/cssnr/sharex-cli/discussions/categories/q-a>
 - Report an Issue: <https://github.com/cssnr/sharex-cli/issues>
