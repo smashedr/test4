@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Name of the server software or similar.
+        The name of the server software or similar.
 
   - type: input
     id: url
@@ -31,7 +31,7 @@ body:
   - type: textarea
     id: config
     validations:
-      required: true
+      required: false
     attributes:
       label: ShareX Custom Uploader (*.sxcu) Configuration
       description: Output is automatically wrapped in a code block.
