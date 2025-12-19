@@ -33,7 +33,7 @@ body:
     validations:
       required: true
     attributes:
-      label: ShareX Custom Uploader (*.sxcu) configuration
+      label: ShareX Custom Uploader (*.sxcu) Configuration
       description: Output is automatically wrapped in a code block.
       render: shell
       placeholder: |
@@ -50,6 +50,6 @@ body:
   - type: markdown
     attributes:
       value: |
-        Make sure to **remove any personally identifiable information** before creating this issue!
+        Make sure to **remove any personally identifiable information** before submitting!
 
         Thank you for taking the time to make this report!
