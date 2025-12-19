@@ -123,12 +123,9 @@ Tip: you will be shown a confirmation before files are uploaded.
 For general help or to request a feature, see:
 
 - Q&A Discussion: <https://github.com/cssnr/sharex-cli/discussions/categories/q-a>
-- Request a Feature: <https://github.com/cssnr/sharex-cli/issues/new?template=1-feature.yaml>
-- Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
-
-If you are experiencing an issue/bug or getting unexpected results, you can:
-
 - Report an Issue: <https://github.com/cssnr/sharex-cli/issues>
+- Request a Feature: <https://github.com/cssnr/sharex-cli/issues/new?template=1-feature.yaml>
+- Request Server Support: <https://github.com/cssnr/sharex-cli/issues/new?template=2-server.yaml>
 - Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
 
 [![Features](https://img.shields.io/badge/features-brightgreen?style=for-the-badge&logo=googleanalytics&logoColor=white)](https://github.com/cssnr/sharex-cli/issues/new?template=1-feature.yaml)
