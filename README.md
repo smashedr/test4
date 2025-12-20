@@ -59,9 +59,9 @@ From PyPI: <https://pypi.org/p/toml-run>
 
 ```shell
 pip install toml-run
-uv tool install toml-run
-
 pip install --group dev toml-run
+
+uv tool install toml-run
 uv add --dev toml-run
 ```
 
