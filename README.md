@@ -56,12 +56,11 @@ To get started [Install](#install) the cli and view the [Usage](#usage).
 From PyPI: <https://pypi.org/p/toml-script>
 
 ```shell
-# Global
-uv tool install toml-script
 pip install toml-script
-# Project
-uv add --dev toml-script
+uv tool install toml-script
+# Add to Project
 pip install --group dev toml-script
+uv add --dev toml-script
 ```
 
 [![View Install Guide](https://img.shields.io/badge/view_install_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/toml-script/cli/#install)
