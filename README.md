@@ -49,18 +49,19 @@ To get started [Install](#install) the cli and view the [Usage](#usage).
 - Supports `pre` and `post` scripts
 - Automatically finds the `pyproject.toml`
 - Runs scripts relative to the root directory
-- Evaluate python code 🧪
+- Evaluate python code 🧪 (experimental)
 
 ## Install<a id="install"></a>
 
 From PyPI: <https://pypi.org/p/toml-script>
 
 ```shell
+# Global
 uv tool install toml-script
-```
-
-```shell
 pip install toml-script
+# Project
+uv add --dev toml-script
+pip install --group dev toml-script
 ```
 
 [![View Install Guide](https://img.shields.io/badge/view_install_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/toml-script/cli/#install)
@@ -71,7 +72,16 @@ First, add some scripts to the `pyproject.toml` using the `[tool.scripts]` secti
 
 ```toml title="pyproject.toml"
 [tool.scripts]
-build = "uv run hatch build"
+clean = "rm -rf dist"
+build = "run clean && uv run hatch build"
+prelint = "echo always runs before lint"
+lint = ["black --check .", "ruff check ."]
+postlint = "echo always runs after lint"
+format = """
+black .
+ruff format .
+"""
+cclean = "#py shutil.rmtree('.cache', True)"
 ```
 
 [![View Scripts Guide](https://img.shields.io/badge/view_scripts_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/toml-script/cli/#scripts)
