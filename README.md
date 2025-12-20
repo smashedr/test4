@@ -58,7 +58,7 @@ From PyPI: <https://pypi.org/p/toml-script>
 ```shell
 pip install toml-script
 uv tool install toml-script
-# Add to Project
+
 pip install --group dev toml-script
 uv add --dev toml-script
 ```
@@ -107,15 +107,12 @@ uvx toml-script build
 
 ## Support<a id="support"></a>
 
-For general help or to request a feature, see:
-
-- Q&A Discussion: <https://github.com/cssnr/toml-script/discussions/categories/q-a>
-- Request a Feature: <https://github.com/cssnr/toml-script/issues/new?template=1-feature.yaml>
-- Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
-
-If you are experiencing an issue/bug or getting unexpected results, you can:
+If you run into any issues or need help getting started, please do one of the following:
 
 - Report an Issue: <https://github.com/cssnr/toml-script/issues>
+- Q&A Discussion: <https://github.com/cssnr/toml-script/discussions/categories/q-a>
+- Request a Feature: <https://github.com/cssnr/toml-script/issues/new?template=1-feature.yaml>
+- Request Server Support: <https://github.com/cssnr/toml-script/issues/new?template=2-server.yaml>
 - Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
 
 [![Features](https://img.shields.io/badge/features-brightgreen?style=for-the-badge&logo=googleanalytics&logoColor=white)](https://github.com/cssnr/toml-script/issues/new?template=1-feature.yaml)
