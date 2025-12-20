@@ -71,8 +71,8 @@ First, add some scripts to the `pyproject.toml` using the `[tool.scripts]` secti
 
 ```toml title="pyproject.toml"
 [tool.scripts]
-clean = "rm -rf dist"
-build = "run clean && uv run hatch build"
+prepare = "python scripts/prepare.py"
+build = "run prepare && uv run hatch build"
 prelint = "echo always runs before lint"
 lint = ["black --check .", "ruff check ."]
 postlint = "echo always runs after lint"
