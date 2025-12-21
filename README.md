@@ -1,126 +1,144 @@
-[![PyPI Version](https://img.shields.io/pypi/v/toml-run?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/toml-run/)
-[![GitHub Release Version](https://img.shields.io/github/v/release/cssnr/toml-run?logo=github)](https://github.com/cssnr/toml-run/releases)
-[![TOML Python Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcssnr%2Ftoml-run%2Frefs%2Fheads%2Fmaster%2Fpyproject.toml&query=%24.project.requires-python&logo=python&logoColor=white&label=python)](https://github.com/cssnr/toml-run?tab=readme-ov-file#readme)
-[![PyPI Downloads](https://img.shields.io/pypi/dm/toml-run?logo=pypi&logoColor=white)](https://pypistats.org/packages/toml-run)
-[![Pepy Total Downloads](https://img.shields.io/pepy/dt/toml-run?logo=pypi&logoColor=white&label=total)](https://clickpy.clickhouse.com/dashboard/toml-run)
-[![Codecov](https://codecov.io/gh/cssnr/toml-run/graph/badge.svg?token=A8NDHZ393X)](https://codecov.io/gh/cssnr/toml-run)
-[![Workflow Lint](https://img.shields.io/github/actions/workflow/status/cssnr/toml-run/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/toml-run/actions/workflows/lint.yaml)
-[![Workflow Test](https://img.shields.io/github/actions/workflow/status/cssnr/toml-run/test.yaml?logo=cachet&label=test)](https://github.com/cssnr/toml-run/actions/workflows/test.yaml)
-[![Deployment PyPi](https://img.shields.io/github/deployments/cssnr/toml-run/pypi?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/toml-run/)
-[![Deployment Docs](https://img.shields.io/github/deployments/cssnr/toml-run/docs?logo=materialformkdocs&logoColor=white&label=docs)](https://cssnr.github.io/toml-run/)
-[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/toml-run?logo=github&label=updated)](https://github.com/cssnr/toml-run/pulse)
-[![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/toml-run?logo=bookstack&logoColor=white&label=repo%20size)](https://github.com/cssnr/toml-run)
-[![GitHub Top Language](https://img.shields.io/github/languages/top/cssnr/toml-run?logo=htmx&logoColor=white)](https://github.com/cssnr/toml-run?tab=readme-ov-file#readme)
-[![GitHub Contributors](https://img.shields.io/github/contributors-anon/cssnr/toml-run?logo=github)](https://github.com/cssnr/toml-run/graphs/contributors)
-[![GitHub Issues](https://img.shields.io/github/issues/cssnr/toml-run?logo=github)](https://github.com/cssnr/toml-run/issues)
-[![GitHub Discussions](https://img.shields.io/github/discussions/cssnr/toml-run?logo=github)](https://github.com/cssnr/toml-run/discussions)
-[![GitHub Forks](https://img.shields.io/github/forks/cssnr/toml-run?style=flat&logo=github)](https://github.com/cssnr/toml-run/forks)
-[![GitHub Repo Stars](https://img.shields.io/github/stars/cssnr/toml-run?style=flat&logo=github)](https://github.com/cssnr/toml-run/stargazers)
+[![PyPI Version](https://img.shields.io/pypi/v/sharex-cli?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/sharex-cli/)
+[![GitHub Release Version](https://img.shields.io/github/v/release/cssnr/sharex-cli?logo=github)](https://github.com/cssnr/sharex-cli/releases)
+[![TOML Python Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fcssnr%2Fsharex-cli%2Frefs%2Fheads%2Fmaster%2Fpyproject.toml&query=%24.project.requires-python&logo=python&logoColor=white&label=python)](https://github.com/cssnr/sharex-cli?tab=readme-ov-file#readme)
+[![PyPI Downloads](https://img.shields.io/pypi/dm/sharex-cli?logo=pypi&logoColor=white)](https://pypistats.org/packages/sharex-cli)
+[![Pepy Total Downloads](https://img.shields.io/pepy/dt/sharex-cli?logo=pypi&logoColor=white&label=total)](https://clickpy.clickhouse.com/dashboard/sharex-cli)
+[![Codecov](https://codecov.io/gh/cssnr/sharex-cli/graph/badge.svg?token=A8NDHZ393X)](https://codecov.io/gh/cssnr/sharex-cli)
+[![Workflow Lint](https://img.shields.io/github/actions/workflow/status/cssnr/sharex-cli/lint.yaml?logo=cachet&label=lint)](https://github.com/cssnr/sharex-cli/actions/workflows/lint.yaml)
+[![Workflow Test](https://img.shields.io/github/actions/workflow/status/cssnr/sharex-cli/test.yaml?logo=cachet&label=test)](https://github.com/cssnr/sharex-cli/actions/workflows/test.yaml)
+[![Deployment PyPi](https://img.shields.io/github/deployments/cssnr/sharex-cli/pypi?logo=pypi&logoColor=white&label=pypi)](https://pypi.org/project/sharex-cli/)
+[![Deployment Docs](https://img.shields.io/github/deployments/cssnr/sharex-cli/docs?logo=materialformkdocs&logoColor=white&label=docs)](https://cssnr.github.io/sharex-cli/)
+[![GitHub Last Commit](https://img.shields.io/github/last-commit/cssnr/sharex-cli?logo=github&label=updated)](https://github.com/cssnr/sharex-cli/pulse)
+[![GitHub Repo Size](https://img.shields.io/github/repo-size/cssnr/sharex-cli?logo=bookstack&logoColor=white&label=repo%20size)](https://github.com/cssnr/sharex-cli)
+[![GitHub Top Language](https://img.shields.io/github/languages/top/cssnr/sharex-cli?logo=htmx&logoColor=white)](https://github.com/cssnr/sharex-cli?tab=readme-ov-file#readme)
+[![GitHub Contributors](https://img.shields.io/github/contributors-anon/cssnr/sharex-cli?logo=github)](https://github.com/cssnr/sharex-cli/graphs/contributors)
+[![GitHub Issues](https://img.shields.io/github/issues/cssnr/sharex-cli?logo=github)](https://github.com/cssnr/sharex-cli/issues)
+[![GitHub Discussions](https://img.shields.io/github/discussions/cssnr/sharex-cli?logo=github)](https://github.com/cssnr/sharex-cli/discussions)
+[![GitHub Forks](https://img.shields.io/github/forks/cssnr/sharex-cli?style=flat&logo=github)](https://github.com/cssnr/sharex-cli/forks)
+[![GitHub Repo Stars](https://img.shields.io/github/stars/cssnr/sharex-cli?style=flat&logo=github)](https://github.com/cssnr/sharex-cli/stargazers)
 [![GitHub Org Stars](https://img.shields.io/github/stars/cssnr?style=flat&logo=github&label=org%20stars)](https://cssnr.github.io/)
 [![Discord](https://img.shields.io/discord/899171661457293343?logo=discord&logoColor=white&label=discord&color=7289da)](https://discord.gg/wXy6m2X8wY)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-72a5f2?logo=kofi&label=support)](https://ko-fi.com/cssnr)
 
-# TOML Run
+# ShareX CLI
 
-<a title="TOML Run" href="https://cssnr.github.io/toml-run/" target="_blank">
-<img alt="TOML Run" align="right" width="128" height="auto" src="https://cssnr.github.io/toml-run/assets/images/logo.svg"></a>
+<a title="ShareX CLI" href="https://cssnr.github.io/sharex-cli/" target="_blank">
+<img alt="ShareX CLI" align="right" width="128" height="auto" src="https://cssnr.github.io/sharex-cli/assets/images/logo.svg"></a>
 
 - [Features](#features)
 - [Install](#install)
+- [Configure](#configure)
 - [Usage](#usage)
 - [Support](#support)
 - [Contributing](#contributing)
 
-Define custom scripts in your pyproject.toml and easily run them with this dependency free tool.
-This tool is both inspired by and similar to [NPM Scripts](https://docs.npmjs.com/cli/v8/using-npm/scripts).
+Command Line Interface to Upload Files to a ShareX Server using a ShareX Custom Uploader `.sxcu` configuration.
+
+Upload any file, multiple files, directories, use globs, create archives and much more...
+
+To get started [Install](#install) the app, [Configure](#configure) your server and view the [Usage](#usage).
 
 If you run into any issues or have any questions, [support](#support) is available.
 
-To get started [Install](#install) the cli and view the [Usage](#usage).
-
-[![View Documentation](https://img.shields.io/badge/view_documentation-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/toml-run/)
+[![View Documentation](https://img.shields.io/badge/view_documentation-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/)
 
 ## Features<a id="features"></a>
 
-- Define scripts in your `pyproject.toml`
-- Easily run scripts with `run script`
-- Cross-platform support using subprocess
-- Supports `pre` and `post` scripts
-- Supports multiple commands per script
-- Automatically finds the `pyproject.toml`
-- Runs scripts relative to the root directory
-- Evaluate python code 🧪 (experimental)
-
-[![View Full Reference](https://img.shields.io/badge/view_full_reference-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/toml-run/reference/)
+- Use a ShareX Custom Uploader `*.sxcu` config.
+- Upload a file or multiple files.
+- Specify a custom file name.
+- Upload files in a directory with optional glob.
+- Upload a directory as an archive.
+- Automatically open the URL in browser.
+- Automatically copy the URL to the clipboard.
+- Display confirmation before uploading multiple files.
+- Override all options with flags or env vars.
 
 ## Install<a id="install"></a>
 
-From PyPI: <https://pypi.org/p/toml-run>
+From PyPI: <https://pypi.org/p/sharex-cli>
 
 ```shell
-pip install toml-run
-pip install --group dev toml-run
-
-uv tool install toml-run
-uv add --dev toml-run
+pip install sharex-cli
 ```
 
-[![View Install Guide](https://img.shields.io/badge/view_install_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/toml-run/reference/#install)
+```shell
+uv tool install sharex-cli
+```
+
+From GitHub: [https://github.com/cssnr/sharex-cli](https://github.com/cssnr/sharex-cli?tab=readme-ov-file#readme)
+
+```shell
+pip install git+https://github.com/cssnr/sharex-cli.git
+```
+
+```shell
+uv tool install git+https://github.com/cssnr/sharex-cli.git
+```
+
+Download a Binary Release.
+
+- [windows-amd64.zip](https://github.com/cssnr/hls-downloader-client/releases/latest/download/windows-amd64.zip)
+- [macos-amd64.zip](https://github.com/cssnr/hls-downloader-client/releases/latest/download/macos-amd64.zip)
+- [linux-amd64.zip](https://github.com/cssnr/hls-downloader-client/releases/latest/download/linux-amd64.zip)
+- [linux-arm64.zip](https://github.com/cssnr/hls-downloader-client/releases/latest/download/linux-arm64.zip)
+
+[![View Install Guide](https://img.shields.io/badge/view_install_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#install)
+
+## Configure<a id="configure"></a>
+
+To configure you need your server's ShareX Custom Uploader `*.sxcu` configuration JSON.
+
+The `--config` command allows you to enter the file path, or open a text editor.
+
+```shell
+sharex --config
+```
+
+Or pass the config path directly to `--config`.
+
+```shell
+sharex --config path/to/config.sxcu
+```
+
+[![View Configure Guide](https://img.shields.io/badge/view_configure_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#configure)
 
 ## Usage<a id="usage"></a>
 
-First, add some scripts to the `pyproject.toml` using the `[tool.scripts]` section.
-
-```toml title="pyproject.toml"
-[tool.scripts]
-prepare = "python scripts/prepare.py"
-build = "run prepare && uv run hatch build"
-prelint = "echo always runs before lint"
-lint = ["black --check .", "ruff check ."]
-postlint = "echo always runs after lint"
-format = """
-black .
-ruff format .
-"""
-clean = "#py shutil.rmtree('.cache', True)"
-```
-
-[![View Scripts Guide](https://img.shields.io/badge/view_scripts_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/toml-run/reference/#scripts)
-
-Run scripts with the `run` command.
+To use run the `sharex` command with the path to the file to upload.
 
 ```shell
-run build
+sharex file.txt
+sharex file1.txt file2.txt
+sharex file.txt -n name.txt
 ```
 
-List available scripts with `--list`.
+Directories can be uploaded as files using a glob (default `*`) or as an archive.
 
 ```shell
-run -l
+sharex dir1  # non-recursive
+sharex dir1 -g '**'  # recursive
+sharex dir1 -a  # create an archive
 ```
 
-Run without installing using [astral-sh/uv](https://docs.astral.sh/uv/).
+Tip: you will be shown a confirmation before files are uploaded.
 
-```shell
-uvx toml-run build
-```
-
-[![View Usage Guide](https://img.shields.io/badge/view_usage_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/toml-run/reference/#usage)
+[![View Upload Guide](https://img.shields.io/badge/view_upload_guide-blue?style=for-the-badge&logo=googledocs&logoColor=white)](https://cssnr.github.io/sharex-cli/cli/#upload)
 
 ## Support<a id="support"></a>
 
 If you run into any issues or need help getting started, please do one of the following:
 
-- Report an Issue: <https://github.com/cssnr/toml-run/issues>
-- Q&A Discussion: <https://github.com/cssnr/toml-run/discussions/categories/q-a>
-- Request a Feature: <https://github.com/cssnr/toml-run/issues/new?template=1-feature.yaml>
-- Request Server Support: <https://github.com/cssnr/toml-run/issues/new?template=2-server.yaml>
+- Report an Issue: <https://github.com/cssnr/sharex-cli/issues>
+- Q&A Discussion: <https://github.com/cssnr/sharex-cli/discussions/categories/q-a>
+- Request a Feature: <https://github.com/cssnr/sharex-cli/issues/new?template=1-feature.yaml>
+- Request Server Support: <https://github.com/cssnr/sharex-cli/issues/new?template=2-server.yaml>
 - Chat with us on Discord: <https://discord.gg/wXy6m2X8wY>
 
-[![Features](https://img.shields.io/badge/features-brightgreen?style=for-the-badge&logo=googleanalytics&logoColor=white)](https://github.com/cssnr/toml-run/issues/new?template=1-feature.yaml)
-[![Issues](https://img.shields.io/badge/issues-red?style=for-the-badge&logo=southwestairlines&logoColor=white)](https://github.com/cssnr/toml-run/issues)
-[![Discussions](https://img.shields.io/badge/discussions-blue?style=for-the-badge&logo=rocketdotchat&logoColor=white)](https://github.com/cssnr/toml-run/discussions)
-[![Discord](https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/wXy6m2X8wY)
+[![Features](https://img.shields.io/badge/features-brightgreen?style=for-the-badge&logo=googleanalytics&logoColor=white)](https://github.com/cssnr/sharex-cli/issues/new?template=1-feature.yaml)
+[![Issues](https://img.shields.io/badge/issues-red?style=for-the-badge&logo=southwestairlines&logoColor=white)](https://github.com/cssnr/sharex-cli/issues)
+[![Discussions](https://img.shields.io/badge/discussions-blue?style=for-the-badge&logo=rocketdotchat&logoColor=white)](https://github.com/cssnr/sharex-cli/discussions)
+[![Discord](https://img.shields.io/badge/discord-yellow?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/wXy6m2X8wY)
 
 ## Contributing<a id="contributing"></a>
 
