@@ -2,7 +2,7 @@ class Npmstat < Formula
   desc "NPM Package Stats and Info CLI"
   homepage "https://github.com/cssnr/npmstat"
   license "MIT"
-  version "0.1.0"
+  version "1.0.0"
 
   on_macos do
     if Hardware::CPU.arm?
