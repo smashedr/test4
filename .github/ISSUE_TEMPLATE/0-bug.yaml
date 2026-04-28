@@ -16,8 +16,8 @@ body:
       required: true
     attributes:
       label: Description
-      description: Please describe the issue you are experiencing.
-      placeholder: Describe the issue and how to reproduce it.
+      description: Describe the issue you are experiencing.
+      placeholder: Please describe the issue and how to reproduce it.
 
   - type: input
     id: website
@@ -25,7 +25,7 @@ body:
       required: false
     attributes:
       label: Site Link
-      description: Please provide a link to a website if applicable.
+      description: Provide a link to a website if applicable.
       placeholder: https://example.com/
 
   - type: textarea
